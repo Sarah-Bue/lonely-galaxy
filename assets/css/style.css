@@ -20,12 +20,15 @@ body {
 
 /* Header Styles*/
 header {
-    background-color: #445371; /* I want to make this a gradient later */
+    background-color: #445371; /* turn this into a gradient later */
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #383a45;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -61,7 +64,21 @@ nav {
     box-shadow: 0 3px 3px #383a45;
     left: 0;
     padding: 0 1rem;
-    display: none;
+    display: none; /* sets it to hidden by default */
+    top: 100%; /* top of this element should start at bottom of its parent */
+}
+
+/* Toggle function for Navigation bar */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none; /* sets it to hidden by default */
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 
