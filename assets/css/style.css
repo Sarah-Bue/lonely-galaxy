@@ -20,6 +20,8 @@ body {
 
 h1 {
     font-family: "Orbitron", sans-serif; /* why is this not displaying correctly? */
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 /* Header Styles*/
@@ -32,6 +34,11 @@ header {
     box-shadow: 0 2px 2px #383a45;
 }
 
+header a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
 
 /* Main Styles */
 main {
@@ -42,6 +49,7 @@ main {
 /* Footer Styles */
 footer {
     background-color: #445371;
+    color: #ffffff;
 }
 
 
