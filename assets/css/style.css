@@ -17,10 +17,15 @@ body {
     font-family: "Roboto Slab", sans-serif;
 }
 
+h1 {
+    font-family: "Orbitron", sans-serif; /* why is this not displaying correctly? */
+}
+
 /* Header Styles*/
 header {
     background-color: #445371;
 }
+
 
 /* Main Styles */
 main {
