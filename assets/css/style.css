@@ -25,7 +25,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #383a45;
+    box-shadow: 0 3px 3px #383a45;
 }
 
 header a {
@@ -52,6 +52,18 @@ h1 {
 .active {
     border-bottom: 2px solid #b943ae;
 }
+
+/* Dropdown menu for Navigation bar */
+nav {
+    position: absolute;
+    background-color: #445371;
+    width: 100%;
+    box-shadow: 0 3px 3px #383a45;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+}
+
 
 /* Main Styles */
 main {
