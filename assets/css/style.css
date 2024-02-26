@@ -1,7 +1,7 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab&display=swap')
 
-/* Override browser default*/
+/* Override browser default style */
 * {
     padding: 0;
     margin: 0;
