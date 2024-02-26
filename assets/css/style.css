@@ -7,3 +7,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* General Styles*/
+body {
+    background-color: #b7adb2;
+}
+
+/* Header Styles*/
+header {
+    background-color: #445371;
+}
+
+/* Main Styles */
+
+/* Footer Styles */
+footer {
+    background-color: #445371;
+}
+
+
