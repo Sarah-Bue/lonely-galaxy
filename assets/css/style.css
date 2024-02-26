@@ -8,8 +8,11 @@
     box-sizing: border-box;
 }
 
-/* General Styles*/
+/* General Styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #b7adb2;
 }
 
@@ -19,6 +22,10 @@ header {
 }
 
 /* Main Styles */
+main {
+    /* main element takes up surplus space to push footer to the bottom */
+    flex: 1 0 auto;
+}
 
 /* Footer Styles */
 footer {
