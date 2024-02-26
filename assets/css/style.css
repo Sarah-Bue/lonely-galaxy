@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Roboto Slab", sans-serif;
+    color: #383a45;
 }
 
 h1 {
@@ -23,7 +24,12 @@ h1 {
 
 /* Header Styles*/
 header {
-    background-color: #445371;
+    background-color: #445371; /* I want to make this a gradient later */
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #383a45;
 }
 
 
