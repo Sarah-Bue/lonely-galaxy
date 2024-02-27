@@ -93,11 +93,11 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url(../images/galaxy.jpeg) no-repeat center center/cover;
+    background: url(../images/galaxy.jpeg) no-repeat center center / cover;
     position: relative;
 }
 
-/* I think I'll try to use this as the frame for a log in section later */
+/* I think I'll try to use this as the frame for a log in section later, or style it to look better with the quote */
 #cover-text {
     background-color: rgba(185,67,174,0.7);
     font: 130%;
@@ -111,6 +111,16 @@ main {
 
 #cover-text > h2 {
     color: #ffffff;
+}
+
+#circle-cover-bg {
+    background: url(../images/planets.jpeg) no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    max-height: 300px;
+    max-width: 300px;;
+    margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 /* ---------- FOOTER SECTION STYLES ---------- */
