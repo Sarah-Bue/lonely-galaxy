@@ -15,7 +15,6 @@ body {
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Roboto Slab", sans-serif;
-    color: #383a45;
 }
 
 /* Header Styles*/
@@ -87,6 +86,13 @@ main {
     /* main element takes up surplus space to push footer to the bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/galaxy.jpeg) no-repeat center center/cover;
 }
 
 /* Footer Styles */
