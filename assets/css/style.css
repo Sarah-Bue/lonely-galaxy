@@ -89,7 +89,7 @@ main {
     margin-top: 47px;
 }
 
-/* Hero Section */
+/* Hero Section */ 
 #hero {
     height: 600px;
     width: 100%;
@@ -97,6 +97,7 @@ main {
     position: relative;
 }
 
+/* I think I'll try to use this as the frame for a log in section later */
 #cover-text {
     background-color: rgba(185,67,174,0.7);
     font: 130%;
@@ -108,8 +109,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2,
-#cover-text > h3 {
+#cover-text > h2 {
     color: #ffffff;
 }
 
