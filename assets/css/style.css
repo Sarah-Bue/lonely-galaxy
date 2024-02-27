@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab&display=swap')
 
 /* Override browser default style */
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -38,7 +38,7 @@ header a {
 
 h1 {
     font-family: "Orbitron", sans-serif; /* why is this not displaying correctly? */
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 4px;
 }
 
@@ -95,4 +95,39 @@ footer {
     color: #ffffff;
 }
 
+/* Media Query: tablets and larger screens (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */ 
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 250%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main Section */
+    main {
+        /* move main content down to accomodate larger header */
+        margin-top: 80px;
+    }
+}
 
