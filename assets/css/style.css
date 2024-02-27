@@ -17,7 +17,15 @@ body {
     font-family: "Roboto Slab", sans-serif;
 }
 
-/* Header Styles*/
+h1,
+h2,
+h3 {
+    font-family: "Orbitron", sans-serif; /* why is this not displaying correctly? */
+    /* text-transform: uppercase; */
+    letter-spacing: 4px;
+}
+
+/* ---------- HEADER SECTION STYLES ---------- */
 header {
     background-color: #445371; /* turn this into a gradient later */
     padding: 0 1rem;
@@ -33,12 +41,6 @@ header {
 header a {
     text-decoration: none;
     color: #ffffff; 
-}
-
-h1 {
-    font-family: "Orbitron", sans-serif; /* why is this not displaying correctly? */
-    /* text-transform: uppercase; */
-    letter-spacing: 4px;
 }
 
 #menu {
@@ -80,8 +82,7 @@ nav {
     font-size: 2rem;
 }
 
-
-/* Main Styles */
+/* ---------- MAIN SECTION STYLES ---------- */
 main {
     /* main element takes up surplus space to push footer to the bottom */
     flex: 1 0 auto;
@@ -93,9 +94,26 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/galaxy.jpeg) no-repeat center center/cover;
+    position: relative;
 }
 
-/* Footer Styles */
+#cover-text {
+    background-color: rgba(185,67,174,0.7);
+    font: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2,
+#cover-text > h3 {
+    color: #ffffff;
+}
+
+/* ---------- FOOTER SECTION STYLES ---------- */
 footer {
     background-color: #445371;
 }
@@ -113,6 +131,8 @@ footer {
     padding: 5%;
     color: #ffffff;
 }
+
+/* ---------- Media Queries ---------- */
 
 /* Media Query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
@@ -147,6 +167,12 @@ footer {
     main {
         /* move main content down to accomodate larger header */
         margin-top: 80px;
+    }
+
+    /* Hero Section */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
