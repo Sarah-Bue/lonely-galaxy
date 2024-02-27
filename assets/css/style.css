@@ -92,6 +92,19 @@ main {
 /* Footer Styles */
 footer {
     background-color: #445371;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
     color: #ffffff;
 }
 
