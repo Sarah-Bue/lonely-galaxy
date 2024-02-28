@@ -1,11 +1,12 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab&display=swap')
 
-/* Override browser default style */
-*{
+/* Override browser default style */ /* Why is this not doing anything when I view it with Devtools? */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Orbitron";
 }
 
 /* General Styles */
@@ -15,14 +16,17 @@ body {
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Roboto Slab", sans-serif;
+    /* Why do I have to add margin and padding here again if I use the * at the top ? */
+    margin: 0; 
+    padding: 0;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "Orbitron", sans-serif; /* why is this not displaying correctly? */
+    font-family: "Orbitron", sans-serif; /* Why is this not displaying correctly? */
     /* text-transform: uppercase; */
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 /* ---------- HEADER SECTION STYLES ---------- */
@@ -97,7 +101,7 @@ main {
     position: relative;
 }
 
-/* I think I'll try to use this as the frame for a log in section later, or style it to look better with the quote */
+/* This might be a nice way to tie the three oages together with a quote  */
 #cover-text {
     background-color: rgba(185,67,174,0.7);
     font: 130%;
