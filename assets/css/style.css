@@ -113,6 +113,28 @@ main {
     color: #ffffff;
 }
 
+/* About Section */
+
+#about {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#about h2, #about h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 250%;
+}
+
+#about1 > div, #about2 > div, #about3 > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: o 20px;
+}
+
 #circle-cover-bg {
     background: url(../images/planets.jpeg) no-repeat top center / cover;
     height: 90vw;
@@ -191,10 +213,19 @@ footer {
     }
 
     /* About Text*/
-    #about1, #about2, #about3, #about-image {
+    #about1, #about2, #about3 {
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    #about1 > div, #about2 > div, #about3 > div {
+        width: 75%;
+    }
+
+    #about2 > div {
+        text-align: end;
+        align-self: flex-end;
     }
 
     #about2 > p {
