@@ -122,6 +122,11 @@ main {
     margin-bottom: 20px;
     border-radius: 50%;
 }
+#about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ---------- FOOTER SECTION STYLES ---------- */
 footer {
@@ -179,12 +184,26 @@ footer {
         margin-top: 80px;
     }
 
-    /* Hero Section */
+    /* Main Image */
     #cover-text {
         width: 300px;
         right: 50px;
     }
-}
+
+    /* About Text*/
+    #about1, #about2, #about3, #about-image {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #about2 > p {
+        align-self: flex-start;
+    }
+
+    #about-image > div {
+        align-self: flex-end;
+    }
 
 /* Media Query: laptops and larger screens (992px and up) */
 @media screen and (min-width: 992px) {
