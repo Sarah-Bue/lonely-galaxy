@@ -235,10 +235,44 @@ footer {
     #about-image > div {
         align-self: flex-end;
     }
+}
 
 /* Media Query: laptops and larger screens (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         color:#b943ae;
+    }
+}
+
+/* Media Query: large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* About Section */
+    #about-lg {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #about-lg > div {
+        flex: 1;
+    }
+
+    #about-img {
+        order: 0;
+    }
+
+    #about1 {
+        order: 1;
+    }
+
+    #about1 > div {
+        align-self: flex-start;
+    }
+
+    #about2 > div {
+        align-self: center;
+    }
+
+    #about3 > div {
+        align-self: flex-end;
     }
 }
