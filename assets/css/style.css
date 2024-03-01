@@ -93,8 +93,10 @@ main {
     margin-top: 47px;
 }
 
-/* Hero Section */ 
-#hero {
+/* About Section */ 
+
+/*Why is the alt text showing on my image?"*/
+#about-img {
     height: 600px;
     width: 100%;
     background: url(../images/galaxy.jpeg) no-repeat center center / cover;
@@ -102,7 +104,7 @@ main {
 }
 
 /* This might be a nice way to tie the three oages together with a quote  */
-#cover-text {
+#quote {
     background-color: rgba(185,67,174,0.7);
     font: 130%;
     position: absolute;
@@ -113,7 +115,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2 {
+#quote > h2 {
     color: #ffffff;
 }
 
@@ -135,10 +137,6 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits p {
-    padding: o 20px;
-}
-
 #circle-cover-bg {
     background: url(../images/planets.jpeg) no-repeat top center / cover;
     height: 90vw;
@@ -148,7 +146,7 @@ main {
     margin-bottom: 20px;
     border-radius: 50%;
 }
-#about-image {
+#about-img2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,6 +154,7 @@ main {
 
 /* Bookings Section */
 
+/*Why is the alt text showing on my image?"*/
 #bookings-img {
     height: 600px;
     width: 100%;
@@ -220,7 +219,7 @@ footer {
     }
 
     /* Main Image */
-    #cover-text {
+    #quote {
         width: 300px;
         right: 50px;
     }
