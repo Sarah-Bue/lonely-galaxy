@@ -48,6 +48,10 @@ header a {
     color: #ffffff; 
 }
 
+header i {
+    color: #ffffff;
+}
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
