@@ -162,11 +162,27 @@ main {
 
 /*Why is the alt text showing on my image?"*/
 #bookings-img {
-    height: 600px;
+    height: auto;
     width: 100%;
     background: url(../images/reaching.jpg) no-repeat center center / cover;
     position: relative;
 }
+/* Destinations Section */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+.card {
+    width: 325px;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #383a45;
+    overflow: hidden;
+
+}
+
 
 /* ---------- FOOTER SECTION STYLES ---------- */
 
