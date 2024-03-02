@@ -63,6 +63,7 @@
                 <img alt="Silhouette of a hand reaching up towards the night sky.">
             </section>
 
+            <!-- Bookings Form -->
             <section id="bookings">
                 <form id="bookings-form" action="https://formdump.codeinstitute.net" method="POST">
                     <h2>Get in touch!</h2>
@@ -71,7 +72,21 @@
                     
                     <input type="email" class="text-input" name="email" id="email" placeholder="Enter your email address" required>
 
+                    <div class="radio-buttons">
+                        <input type="radio" name="planetpicker" id="coruscant" value="coruscant">
+                        <label for="coruscant">Coruscant</label>
+
+                        <input type="radio" name="planetpicker" id="hollastin" value="hollastin">
+                        <label for="hollastin">Hollastin</label>
+
+                        <input type="radio" name="planetpicker" id="rendili" value="rendili">
+                        <label for="rendili">Rendili</label>
+                    </div>
+
                     <input type="date" class="text-input" name="datepicker" id="namepicker" required>
+
+                    <button type="submit" class="card-button">Request personalized package</button>
+
                 </form>
             </section>
 </main>

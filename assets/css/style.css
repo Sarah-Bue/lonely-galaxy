@@ -224,11 +224,13 @@ main {
 
 /* Why is the alt text showing on my image? And why is my image squished so flat? */
 #bookings-img {
-    height: auto;
+    height: 600px;
     width: 100%;
     background: url(../images/reaching.jpg) no-repeat center center / cover;
     position: relative;
 }
+
+
 
 .text-input {
     background: transparent;
