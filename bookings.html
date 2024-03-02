@@ -58,38 +58,49 @@
 
         <!-- Main -->
         <main>
-            <!-- Bookings Image -->
-            <section id="bookings-img">
-                <img alt="Silhouette of a hand reaching up towards the night sky.">
-            </section>
 
-            <!-- Bookings Form -->
-            <section id="bookings">
-                <form id="bookings-form" action="https://formdump.codeinstitute.net" method="POST">
-                    <h2>Get in touch!</h2>
-                    <input type="text" class="text-input" name="first-name" id="first-name" placeholder="Enter your first name" required>
-                    <input type="text" class="text-input" name="last-name" id="last-name" placeholder="Enter your last name" required>
-                    
-                    <input type="email" class="text-input" name="email" id="email" placeholder="Enter your email address" required>
+            <section class="card-container">
 
-                    <input type="date" class="text-input" name="datepicker" id="namepicker" required>
-
-                    <div class="radio-buttons">
-                        <input type="radio" name="planetpicker" id="coruscant" value="coruscant">
-                        <label for="coruscant">Coruscant</label>
-
-                        <input type="radio" name="planetpicker" id="hollastin" value="hollastin">
-                        <label for="hollastin">Hollastin</label>
-
-                        <input type="radio" name="planetpicker" id="rendili" value="rendili">
-                        <label for="rendili">Rendili</label>
+                <!-- Call to Action -->
+                <div class="card">
+                    <img src ="assets/images/reaching.jpg" alt="Silhouette of a hand reaching up towards the night sky.">
+                    <div class="card-content">
+                        <h2>Get in touch</h2>
+                        <p>Don't miss the opportunity to embark on a cosmic adventure that might just change your life. <br>
+                            Simply select when and where you want to experience your own, personalized sense of wonder, and
+                            let us do the work of finding the best offers and packages.</p>
                     </div>
+                </div>
 
-                    <button type="submit" class="card-button">Request personalized package</button>
+                <!-- Bookings Form -->
+                <div class="card">
+                    <div class="card-content">
+                        <form id="bookings-form" action="https://formdump.codeinstitute.net" method="POST">
+                            <h2>Leave it with us!</h2>
+                            <input type="text" class="text-input" name="first-name" id="first-name" placeholder="Enter your first name" required>
+                            <input type="text" class="text-input" name="last-name" id="last-name" placeholder="Enter your last name" required>
+                            
+                            <input type="email" class="text-input" name="email" id="email" placeholder="Enter your email address" required>
 
-                </form>
+                            <input type="date" class="text-input" name="datepicker" id="namepicker" required>
+
+                            <div class="radio-buttons">
+                                <input type="radio" name="planetpicker" id="coruscant" value="coruscant">
+                                <label for="coruscant">Coruscant</label>
+
+                                <input type="radio" name="planetpicker" id="hollastin" value="hollastin">
+                                <label for="hollastin">Hollastin</label>
+
+                                <input type="radio" name="planetpicker" id="rendili" value="rendili">
+                                <label for="rendili">Rendili</label>
+                            </div>
+
+                            <button type="submit" class="card-button">Request personalized package</button>
+                        </form>
+                    </div>
+                </div>
             </section>
-</main>
+        </main>
 
 <!-- Footer -->
 <footer>
