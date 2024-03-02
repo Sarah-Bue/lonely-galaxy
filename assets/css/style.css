@@ -144,13 +144,14 @@ main {
 
 /*Why is the alt text showing on my image?"*/
 #circle-cover-bg {
-    background: url(../images/planets.jpeg) no-repeat top center / cover;
+    background: url(../images/reaching.jpg) no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     max-height: 300px;
     max-width: 300px;;
     margin-bottom: 20px;
     border-radius: 50%;
+    justify-content: center;
 }
 #about-img2 {
     display: flex;
@@ -245,7 +246,6 @@ main {
     height: 20px;
     margin: 5px 10px;
     padding: 0 5px;
-
 }
 
 
