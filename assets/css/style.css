@@ -167,6 +167,8 @@ main {
     background: url(../images/reaching.jpg) no-repeat center center / cover;
     position: relative;
 }
+
+
 /* Destinations Section */
 .card-container {
     display: flex;
