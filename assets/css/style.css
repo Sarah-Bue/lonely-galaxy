@@ -230,12 +230,22 @@ main {
     position: relative;
 }
 
-
+.radio-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10px 0;
+}
 
 .text-input {
     background: transparent;
     border: none;
     border-bottom: 2px solid #b943ae;
+    width: 55%;
+    height: 20px;
+    margin: 5px 10px;
+    padding: 0 5px;
+
 }
 
 
