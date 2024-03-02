@@ -222,7 +222,7 @@ main {
 
 /* Bookings Section */
 
-/*Why is the alt text showing on my image?"*/
+/* Why is the alt text showing on my image? And why is my image squished so flat? */
 #bookings-img {
     height: auto;
     width: 100%;
@@ -230,12 +230,12 @@ main {
     position: relative;
 }
 
-
-.form-fields {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.text-input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #b943ae;
 }
+
 
 /* ---------- FOOTER SECTION STYLES ---------- */
 
@@ -322,6 +322,10 @@ footer {
 
     #about-image > div {
         align-self: flex-end;
+    }
+
+    .form-fields {
+        flex-direction: row;
     }
 }
 
