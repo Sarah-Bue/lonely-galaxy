@@ -219,7 +219,7 @@ main {
     margin: 20px 40px;
 }
 
-/* Hover Effect for planet cards */
+/* Hover Effects for planet cards */
 .card:hover {
     transform: translateY(-20px);
 }
@@ -321,6 +321,18 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover{
         color:#b943ae;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 25px 5px;
+        align-items: stretch;
+    }
+
+    .card-button {      
+        align-items: flex-end; /* How can I make the buttons lign up along the bottom ? */
     }
 }
 
