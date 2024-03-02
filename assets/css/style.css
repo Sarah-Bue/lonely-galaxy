@@ -39,7 +39,7 @@ header {
     width: 100%;
     box-shadow: 0 3px 3px #383a45;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
 
@@ -50,6 +50,7 @@ header a {
 
 header i {
     color: #ffffff;
+    font-size: 90%;
 }
 
 #menu {
