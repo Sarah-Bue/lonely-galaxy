@@ -103,60 +103,27 @@ main {
 /* About Section */ 
 
 /*Why is the alt text showing on my image?"*/
-#about-img {
+#home-img {
     height: 600px;
     width: 100%;
     background: url(../images/galaxy.jpeg) no-repeat center center / cover;
     position: relative;
 }
 
-/* This might be a nice way to tie the three oages together with a quote  */
-#quote {
-    background-color: rgba(185,67,174,0.7);
-    font: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-}
-
-#quote > h2 {
-    color: #ffffff;
-}
-
-#about {
+.about {
     width: 90%;
     margin: 20px auto;
 }
 
-#about h2, #about h3 {
+#quote h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 150%;
 }
 
-#about1 > div, #about2 > div, #about3 > div {
+.about1 > div, .about2 > div, .about3 > div {
     line-height: 20px;
     margin-bottom: 20px;
-}
-
-/*Why is the alt text showing on my image?"*/
-#circle-cover-bg {
-    background: url(../images/reaching.jpg) no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    max-height: 300px;
-    max-width: 300px;;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    justify-content: center;
-}
-#about-img2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Destinations Section */
@@ -305,48 +272,29 @@ footer {
         /* move main content down to accomodate larger header */
         margin-top: 80px;
     }
-
-    /* About Image */
-    #quote {
-        width: 300px;
-        right: 50px;
-    }
-
-    /* About Text*/
-    #about1, #about2, #about3 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #about1 > div, #about2 > div, #about3 > div {
-        width: 75%;
-    }
-
-    #about2 > div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
-    #about2 > p {
-        align-self: flex-start;
-    }
-
-    #about-image > div {
-        align-self: flex-end;
-    }
-
-    .form-fields {
-        flex-direction: row;
-    }
 }
 
 /* Media Query: laptops and larger screens (992px and up) */
 @media screen and (min-width: 992px) {
+
+    /* Header Section */
     #menu a:hover{
         color:#b943ae;
     }
 
+    /* About Section */
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    #about1, #about3 {
+        align-self: center;
+    }
+
+    /* Bookings and Destinations Section */
     .card-container {
         display: flex;
         flex-direction: row;
@@ -357,46 +305,5 @@ footer {
 
     .card-button {      
         align-items: flex-end; /* How can I make the buttons lign up along the bottom ? */
-    }
-}
-
-/* Media Query: large screens (1200px and up) */
-@media screen and (min-width: 1200px) {
-    /* About Section */
-    #about-lg {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #about-lg > div {
-        flex: 1;
-    }
-
-    #about1 {
-        order: 0;
-    }
-
-    #about2 {
-        order: 1;
-    }
-
-    #about3 {
-        order: 3;
-    }
-
-    #about-img {
-        order: 2;
-    }
-
-    #about1 > div {
-        align-self: flex-start;
-    }
-
-    #about2 > div {
-        align-self: center;
-    }
-
-    #about3 > div {
-        align-self: flex-end;
     }
 }
