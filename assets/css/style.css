@@ -158,17 +158,6 @@ main {
     justify-content: center;
 }
 
-/* Bookings Section */
-
-/*Why is the alt text showing on my image?"*/
-#bookings-img {
-    height: auto;
-    width: 100%;
-    background: url(../images/reaching.jpg) no-repeat center center / cover;
-    position: relative;
-}
-
-
 /* Destinations Section */
 .card-container {
     display: flex;
@@ -229,6 +218,23 @@ main {
 .card-button:hover {
     color:#b943ae;
     background-color: #ffffff;
+}
+
+/* Bookings Section */
+
+/*Why is the alt text showing on my image?"*/
+#bookings-img {
+    height: auto;
+    width: 100%;
+    background: url(../images/reaching.jpg) no-repeat center center / cover;
+    position: relative;
+}
+
+
+.form-fields {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ---------- FOOTER SECTION STYLES ---------- */
