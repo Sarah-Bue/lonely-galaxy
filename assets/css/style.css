@@ -139,18 +139,16 @@ main {
 }
 
 .about {
-    margin: 20px;
+    margin: 20px; /* How do I get rid of the exess empty space below the text on larger screens? */
 }
 
 #about-h2 {
     margin: 20px;
 }
 
-
-/* How can I give the paragraphs more line-height? */
 .about div p {
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* How can I give the paragraphs more line-height? */
 }
 
 /* Destinations Section */
