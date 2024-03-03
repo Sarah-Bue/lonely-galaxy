@@ -174,10 +174,6 @@ main {
     margin: 20px 40px;
 }
 
-.textarea {
-    align-self: center;
-}
-
 /* Hover Effects for planet cards */
 .card:hover {
     transform: translateY(-20px);
