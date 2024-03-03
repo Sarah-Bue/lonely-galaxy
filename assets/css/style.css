@@ -43,7 +43,7 @@ header a {
 
 header i {
     color: #ffffff;
-    font-size: 90%;
+    font-size: 60%;
 }
 
 #logo {
@@ -187,6 +187,7 @@ main {
     font-family: "Orbitron", sans-serif;
     letter-spacing: 1px;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .card-content p {
