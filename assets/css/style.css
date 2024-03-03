@@ -2,12 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab&display=swap')
 
 /* Override browser default style */
-/* Why is this not doing anything when I view it with Devtools? */
+/* Why is this not doing anything? */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Orbitron";
 }
 
 /* General Styles */
@@ -110,18 +109,19 @@ main {
     position: relative;
 }
 
-.about {
-    width: 90%;
-    margin: 20px auto;
-}
-
 #quote h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 150%;
 }
 
-.about1 > div, .about2 > div, .about3 > div {
+.about {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* How can I give the paragraphs more line-height? */
+.about > div > p {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -190,14 +190,6 @@ main {
 
 /* Bookings Section */
 
-/* Why is the alt text showing on my image? And why is my image squished so flat? */
-#bookings-img {
-    height: 600px;
-    width: 100%;
-    background: url(../images/reaching.jpg) no-repeat center center / cover;
-    position: relative;
-}
-
 .radio-buttons {
     display: flex;
     justify-content: space-evenly;
@@ -213,6 +205,11 @@ main {
     height: 20px;
     margin: 5px 10px;
     padding: 0 5px;
+}
+
+/* How can I take the hover effect out of the bookings section?*/
+.card-container #bookings {
+    transform: none;
 }
 
 
@@ -303,7 +300,8 @@ footer {
         align-items: stretch;
     }
 
+    /* How can I make the buttons lign up along the bottom ? */
     .card-button {      
-        align-items: flex-end; /* How can I make the buttons lign up along the bottom ? */
+        align-items: flex-end;
     }
 }
