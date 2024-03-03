@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab&display=swap')
 
 /* Override browser default style */
-/* Why is this not doing anything? */
-* {
+* { /* Why is this not doing anything? */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,30 +14,28 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #b7adb2;
-    font-family: "Roboto Slab", sans-serif;
-    /* Why do I have to add margin and padding here again if I use the * at the top ? */
-    margin: 0; 
-    padding: 0;
+    font-family: "Roboto Slab", sans-serif; /* Why is this not displaying correctly? */
+    margin: 0; /* Why do I have to add margin and padding here again if I use the * at the top ? */
+    padding: 0; /* Why do I have to add margin and padding here again if I use the * at the top ? */
 }
 
-h1,
-h2,
-h3 {
+h2 {
     font-family: "Orbitron", sans-serif; /* Why is this not displaying correctly? */
     letter-spacing: 1px;
+    text-align: center;
 }
 
 /* ---------- HEADER SECTION STYLES ---------- */
 
 header {
-    background-color: #445371; /* turn this into a gradient later */
+    background-color: #445371; /* How can I turn this into a gradient? */
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 2;
     width: 100%;
     box-shadow: 0 3px 3px #383a45;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* How can I space the list items out more from each other / pull them and the toggle symbol away from the right margin ?*/
     align-items: baseline;
 }
 
@@ -52,6 +49,12 @@ header i {
     font-size: 90%;
 }
 
+#logo {
+   font-family: "Orbitron", sans-serif; /* Why is this not displaying correctly? */
+   letter-spacing: 1px;
+}
+
+/* Navigation bar */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -74,11 +77,11 @@ nav {
     box-shadow: 0 3px 3px #383a45;
     left: 0;
     padding: 0 1rem;
-    display: none; /* sets it to hidden by default */
+    display: none; 
     top: 100%; /* top of this element should start at bottom of its parent */
 }
 
-/* Toggle function for Navigation bar */
+/* Toggle function for dropdown menu */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -101,7 +104,7 @@ main {
 
 /* About Section */ 
 
-/*Why is the alt text showing on my image?"*/
+/* Why is the alt text showing on my image on larger screens? */
 #home-img {
     height: 600px;
     width: 100%;
@@ -109,19 +112,12 @@ main {
     position: relative;
 }
 
-#quote h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 150%;
-}
-
 .about {
-    width: 90%;
-    margin: 20px auto;
+    margin: 20px;
 }
 
 /* How can I give the paragraphs more line-height? */
-.about > div > p {
+.about div p {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -221,7 +217,7 @@ footer {
 
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -259,9 +255,10 @@ footer {
     }
 
     #logo {
-        font-size: 250%;
+        font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
+        letter-spacing: 2px;
     }
 
     /* Main Section */
