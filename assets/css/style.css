@@ -97,9 +97,8 @@ nav {
 /* ---------- MAIN SECTION STYLES ---------- */
 
 main {
-    /* main element takes up surplus space to push footer to the bottom */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 47px; /* main element takes up surplus space to push footer to the bottom */
 }
 
 /* About Section */ 
