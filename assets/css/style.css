@@ -28,7 +28,7 @@ h2 {
 /* ---------- HEADER SECTION STYLES ---------- */
 
 header {
-    background-color: #445371; /* How can I turn this into a gradient? */
+    background-color: #445371;  /* How can I turn this into a gradient that covers both the header section and the navbar items ? */
     padding: 0 1rem;
     position: fixed;
     z-index: 2;
@@ -102,32 +102,35 @@ main {
 }
 
 /* Home Section */ 
-
-/* Why is the alt text showing on my image on larger screens? */
 #home-img {
-    height: 600px;
-    width: 100%;
     background: url(../images/galaxy.jpeg) no-repeat center center / cover;
-    position: relative;
+    object-fit: cover;
+    display: flex;
 }
 
 #quote {
     background-color: rgba(185, 67, 174, 0.7);
+    border-radius: 10px;
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 100px;
     width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    min-height: 100px;
+    padding: 20px 10px;
 }
 
 #quote > h2 {
     color: #ffffff;
-    text-align: justify-all; /* How do I center this vertically im the box? */
+    text-align: justify-all;
 }
 
 /* About Section */
+#about-img {
+    height: 250px;
+    width: 100%;
+    background: url(../images/coruscant-onplanet.jpeg) no-repeat center center / cover;
+    position: relative;
+}
 
 .about {
     margin: 20px;
