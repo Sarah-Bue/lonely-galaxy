@@ -1,8 +1,8 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab&display=swap')
 
-/* Override browser default style */
-* { /* Why is this not doing anything? */
+/* Why is this not doing anything? */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -172,6 +172,10 @@ main {
     display: block;
     text-align: center;
     margin: 20px 40px;
+}
+
+.textarea {
+    align-self: center;
 }
 
 /* Hover Effects for planet cards */
