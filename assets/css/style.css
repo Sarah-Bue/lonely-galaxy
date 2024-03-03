@@ -101,7 +101,7 @@ main {
     margin-top: 47px; /* main element takes up surplus space to push footer to the bottom */
 }
 
-/* About Section */ 
+/* Home Section */ 
 
 /* Why is the alt text showing on my image on larger screens? */
 #home-img {
@@ -110,6 +110,24 @@ main {
     background: url(../images/galaxy.jpeg) no-repeat center center / cover;
     position: relative;
 }
+
+#quote {
+    background-color: rgba(185, 67, 174, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#quote > h2 {
+    color: #ffffff;
+    text-align: justify-all; /* How do I center this vertically im the box? */
+}
+
+/* About Section */
 
 .about {
     margin: 20px;
