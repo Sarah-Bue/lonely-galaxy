@@ -1,5 +1,5 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Slab&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Tektur:wght@400..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap')
 
 /* Why is this not doing anything? */
 * {
@@ -14,13 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #b7adb2;
-    font-family: "Roboto Slab", sans-serif; /* Why is this not displaying correctly? */
+    font-family: "Oxanium", sans-serif; /* Why is this not displaying correctly? */
     margin: 0; /* Why do I have to add margin and padding here again if I use the * at the top ? */
     padding: 0; /* Why do I have to add margin and padding here again if I use the * at the top ? */
 }
 
 h2 {
-    font-family: "Orbitron", sans-serif; /* Why is this not displaying correctly? */
+    font-family: "Tektur", sans-serif; /* Why is this not displaying correctly? */
     letter-spacing: 1px;
     text-align: center;
 }
@@ -50,7 +50,7 @@ header i {
 }
 
 #logo {
-   font-family: "Orbitron", sans-serif; /* Why is this not displaying correctly? */
+   font-family: "Tourney", sans-serif; /* Why is this not displaying correctly? */
    letter-spacing: 1px;
 }
 
@@ -159,7 +159,7 @@ main {
 }
 
 .card-content p {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "Oxanium", sans-serif;
 }
 
 .card-button {
