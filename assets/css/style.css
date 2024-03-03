@@ -47,8 +47,11 @@ header i {
 }
 
 #logo {
-   font-family: "Tourney", sans-serif; 
+   font-family: "Tourney", sans-serif;
+   font-size: 150%;
+   font-weight: 200;
    letter-spacing: 1px;
+   margin: 0 0.5rem;
 }
 
 /* Navigation bar */
@@ -165,7 +168,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 3px 3px #383a45;
     overflow: hidden;
-    background-color: #4f544f;
+    background-color: #445371;
     color: #b7adb2;
     transition: transform 0.6s ease;
 }
@@ -285,7 +288,6 @@ footer {
     #logo {
         font-size: 200%;
         line-height: 75px;
-        margin: 0 0.5rem;
         letter-spacing: 2px;
     }
 
