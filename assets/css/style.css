@@ -258,6 +258,9 @@ main {
 
 footer {
     background-color: #445371;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #social-networks {
@@ -276,6 +279,11 @@ footer {
 
 #social-networks li {
     padding: 0 20px;
+}
+
+#address {
+    color: #ffffff;
+    margin-left: 20px;
 }
 
 /* ---------- Media Queries ---------- */
