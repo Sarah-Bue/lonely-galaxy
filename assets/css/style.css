@@ -134,7 +134,7 @@ main {
 #about-img {
     height: 250px;
     width: 100%;
-    background: url(../images/coruscant-onplanet.jpeg) no-repeat center center / cover;
+    background: url(../images/rendili-onplanet.jpeg) no-repeat center bottom / cover;
     position: relative;
 }
 
@@ -157,7 +157,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 
@@ -219,7 +219,7 @@ main {
 #bookings-img {
     height: 250px;
     width: 100%;
-    background: url(../images/hollastin2.jpeg) no-repeat center center / cover;
+    background: url(../images/hollastin-onplanet.jpeg) no-repeat center center / cover;
     position: relative;
 }
 
