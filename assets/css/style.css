@@ -20,6 +20,22 @@ h2 {
     font-family: "Orbitron", sans-serif;
     letter-spacing: 1px;
     text-align: center;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: none;
+    height: 2px;
+    background: #383a45;
 }
 
 /* ---------- HEADER SECTION STYLES ---------- */
@@ -142,7 +158,7 @@ main {
     margin: 20px; /* How do I get rid of the exess empty space below the text on larger screens? */
 }
 
-#about-h2 {
+.about-h2 {
     margin: 20px;
 }
 
@@ -185,7 +201,6 @@ main {
     font-family: "Orbitron", sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .card-content p {
@@ -223,28 +238,21 @@ main {
     position: relative;
 }
 
-.radio-buttons {
+.radio-buttons { /* How do I align them vertically? */
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     margin: 10px 0;
-}
+} 
 
 .text-input {
     background: transparent;
     border: none;
     border-bottom: 2px solid #b943ae;
-    width: 55%;
+    width: 100%;
     height: 20px;
-    margin: 5px 10px;
-    padding: 0 5px;
+    margin-top: 20px;
 }
-
-/* How can I take the hover effect out of the bookings section?*/
-.card-container #bookings {
-    transform: none;
-}
-
 
 /* ---------- FOOTER SECTION STYLES ---------- */
 
@@ -292,7 +300,7 @@ footer {
     }
 
     #logo {
-        font-size: 200%;
+        font-size: 175%;
         line-height: 75px;
         letter-spacing: 2px;
     }
@@ -301,6 +309,20 @@ footer {
     main {
         /* move main content down to accomodate larger header */
         margin-top: 80px;
+    }
+
+    /* About Section */
+    .about-h2 {
+        font-size: 150%;
+    }
+
+    /* Bookings Section */
+    .radio-buttons { /* How do I align them vertically? */
+        width: 75%;
+    } 
+    
+    .text-input {
+        width: 75%;
     }
 }
 
@@ -316,12 +338,12 @@ footer {
     .about {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
+        justify-content: space-evenly;
+        gap: 50px;
     }
 
-    #about1, #about3 {
-        align-self: center;
+    .about-h2 {
+        font-size: 200%;
     }
 
     /* Bookings and Destinations Section */
@@ -335,6 +357,6 @@ footer {
 
     /* How can I make the buttons lign up along the bottom ? */
     .card-button {      
-        align-items: flex-end;
+        align-items: baseline;
     }
 }
