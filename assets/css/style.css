@@ -264,7 +264,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     list-style-type: none;
 }
 
@@ -272,6 +272,10 @@ footer {
     font-size: 120%;
     padding: 5%;
     color: #ffffff;
+}
+
+#social-networks li {
+    padding: 0 20px;
 }
 
 /* ---------- Media Queries ---------- */
