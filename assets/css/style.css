@@ -216,6 +216,13 @@ main {
 
 /* Bookings Section */
 
+#bookings-img {
+    height: 250px;
+    width: 100%;
+    background: url(../images/hollastin2.jpeg) no-repeat center center / cover;
+    position: relative;
+}
+
 .radio-buttons {
     display: flex;
     justify-content: space-evenly;
