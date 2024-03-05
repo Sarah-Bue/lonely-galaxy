@@ -237,22 +237,79 @@ main {
     background: url(../images/hollastin-onplanet.jpeg) no-repeat center center / cover;
     position: relative;
 }
+/* Form Styles */
+fieldset {
+    margin: 2em 0;
+    padding: 1em 2em;
+    border: solid 1px #383a45;
+    border-radius: 6px;
+    min-width: 200px;
+}
 
-.radio-buttons { /* How do I align them vertically? */
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 10px 0;
-} 
+legend {
+    font-size: 110%;
+    font-family: "Oxanium", sans-serif;
+    color:#383a45;
+}
+
+label {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
 
 .text-input {
+    padding: .5em;
+    margin-left: 15px;
     background: transparent;
     border: none;
     border-bottom: 2px solid #b943ae;
-    width: 100%;
-    height: 20px;
-    margin-top: 20px;
+    box-align: right; /* How do I align all these lines to the right? */
 }
+
+input [type="email"], input [type="text"] {
+    width: 10em;
+}
+
+.radio-buttons {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.radio-buttons label{
+    margin-top: 0;
+}
+
+.radio-buttons p {
+    margin-bottom: 0;
+}
+
+input[type="radio"] {
+    margin-left: 1.5em;
+    margin-right: 0;
+}
+
+.selection {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.bookings-button { /* How do I center this on medium sized screens? */
+    display: inline-block;
+    background-color: #b943ae;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 8px 16px;
+    display: block;
+    text-align: center;
+    margin: 20px 40px;
+}
+
 
 /* ---------- FOOTER SECTION STYLES ---------- */
 
@@ -329,13 +386,13 @@ footer {
     }
 
     /* Bookings Section */
-    .radio-buttons { /* How do I align them vertically? */
-        width: 75%;
-    } 
-    
-    .text-input {
-        width: 75%;
-    }
+   iframe {
+    width: 100%;
+   }
+
+   fieldset {
+    height: 90%;
+   }
 }
 
 /* Media Query: laptops and larger screens (992px and up) */
@@ -365,6 +422,11 @@ footer {
         justify-content: space-between;
         margin: 25px 5px;
         align-items: stretch;
+    }
+
+    /* Form Styles */
+    fieldset {
+        width: 100%;
     }
 
     /* How can I make the buttons lign up along the bottom ? */

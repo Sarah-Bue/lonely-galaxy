@@ -57,23 +57,39 @@
         <!-- Main -->
         <main>
             <!-- Bookings Image -->
-            <section id="bookings-img" title="A vibrant sunset over a lake with fog enveloping a lake with mountains in the distance."></section>
+            <section id="bookings-img"
+            title="A vibrant sunset over a lake with fog enveloping a lake with mountains in the distance."></section>
         
-<!--             <h2 class="about-h2">Get in touch!</h2> -->
-
             <section class="about">
                 <!-- Bookings Form-->
-                <div class="about1">
-                    <h2>Leave it to us</h2>
-                    <form id="bookings-form" action="https://formdump.codeinstitute.net/" method="POST">
-                        <input type="text" class="text-input" name="first-name" id="first-name" placeholder="Enter your first name" required>
-                        <input type="text" class="text-input" name="last-name" id="last-name" placeholder="Enter your last name" required>
+                <form action="">
+                    <fieldset>
+                        <legend>Leave it with us</legend>
+                        <label for="name">Your Name</label>
+                        <input type="text" class="text-input" name="name" id="name" required> <br>
                         
-                        <input type="email" class="text-input" name="email" id="email" placeholder="Enter your email address" required>
+                        <label for="email">Your Email</label>
+                        <input type="email" class="text-input" name="email" id="email" required> <br>
 
-                        <input type="date" class="text-input" name="datepicker" id="namepicker" required>
+                    <div class="selection">
+                        <label for="species">Your Species</label>
+                        <select name="species" id="species" class="text-input" required>
+                            <option value="species">Please Select</option>
+                            <option value="bothan">Bothan</option>
+                            <option value="duro">Duro</option>
+                            <option value="human">Human</option>
+                            <option value="rodian">Rodian</option>
+                            <option value="sullustan">Sullustan</option>
+                        </select>
+                    </div>
+
+                    <div class="selection">
+                        <label for="date">Your Date</label>
+                        <input type="date" name="datepicker" id="datepicker" class="text-input" required>
+                    </div>
 
                         <div class="radio-buttons">
+                            <p>Your Destination</p>
                             <input type="radio" name="planetpicker" id="coruscant" value="coruscant">
                             <label for="coruscant">Coruscant</label>
 
@@ -84,11 +100,11 @@
                             <label for="rendili">Rendili</label>
                         </div>
                         
-                        <button type="submit" class="card-button">Request personalized package</button>
-                    </form>
-                </div>
+                        <button type="submit" class="bookings-button">Request personalized package</button>
 
-                <hr>
+
+                    </fieldset>
+                </form>
 
                 <!-- Call to Action -->
                 <div class="about2">
@@ -96,11 +112,14 @@
                     <p>Don't miss the opportunity to embark on a cosmic adventure that might just change your life. <br>
                         Simply select when and where you want to experience your own, personalized sense of wonder, and
                         let us do the work of finding the best offers and packages. <br><br> 
-                        Contact us using our form, or find us on any of our on-planet offices.</p>
+                        Contact us using our form, or find us on any of our on-planet offices.
+                    </p>
 
-                        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.279884611195!2d-74.05022926629375!3d40.68983314764599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2508ed1e8d553%3A0x79084fab31e7ed6c!2sLiberty%20Island!5e0!3m2!1sen!2sie!4v1709594298537!5m2!1sen!2sie"
+                    <!-- Google Maps -->
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.279884611195!2d-74.05022926629375!3d40.68983314764599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2508ed1e8d553%3A0x79084fab31e7ed6c!2sLiberty%20Island!5e0!3m2!1sen!2sie!4v1709594298537!5m2!1sen!2sie"
                             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
                 </div>
             </section>
 
