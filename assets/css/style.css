@@ -12,8 +12,8 @@ body {
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Oxanium", sans-serif;
-    margin: 0; /* Why do I have to add margin and padding here again if I use the * at the top ? */
-    padding: 0; /* Why do I have to add margin and padding here again if I use the * at the top ? */
+    margin: 0; 
+    padding: 0;
 }
 
 h2 {
@@ -99,7 +99,7 @@ nav {
 
 main {
     flex: 1 0 auto;
-    margin-top: 47px; /* main element takes up surplus space to push footer to the bottom */
+    margin-top: 40px; /* main element takes up surplus space to push footer to the bottom */
 }
 
 /* Home Section */ 
@@ -374,6 +374,10 @@ footer {
         font-size: 150%;
     }
 
+    .about {
+        margin: 40px; /* How do I get rid of the exess empty space below the text on larger screens? */
+    }
+
     /* Bookings Section */
    iframe {
     width: 100%;
@@ -404,7 +408,7 @@ footer {
         font-size: 200%;
     }
 
-    /* Bookings and Destinations Section */
+    /* Destinations Section */
     .card-container {
         display: flex;
         flex-direction: row;
@@ -418,7 +422,6 @@ footer {
         width: 100%;
     }
 
-    /* How can I make the buttons lign up along the bottom ? */
     .card-button {      
         align-items: baseline;
     }
