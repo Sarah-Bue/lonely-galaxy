@@ -215,7 +215,6 @@ main {
 }
 
 /* Bookings Section */
-
 #bookings-img {
     height: 250px;
     width: 100%;
@@ -248,15 +247,15 @@ label:first-of-type {
 
 .text-input {
     padding: .5em;
-    margin-left: 15px;
-    background: transparent;
+/*     margin-left: 15px;
+ */    background: transparent;
     border: none;
     border-bottom: 2px solid #b943ae;
     box-align: right; /* How do I align all these lines to the right? */
 }
 
 input [type="email"], input [type="text"] {
-    width: 10em;
+    width: 100%;
 }
 
 .radio-buttons {
@@ -279,11 +278,12 @@ input[type="radio"] {
 }
 
 .selection {
-    display: inline-block;
+    display: block;
     margin-top: 1em;
+    width: 100%;
 }
 
-.bookings-button { /* How do I center this on medium sized screens? */
+.bookings-button { 
     display: inline-block;
     background-color: #b943ae;
     text-decoration: none;
@@ -294,7 +294,6 @@ input[type="radio"] {
     text-align: center;
     margin: 20px 40px;
 }
-
 
 /* ---------- FOOTER SECTION STYLES ---------- */
 

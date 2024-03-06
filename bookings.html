@@ -3,20 +3,17 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta
-        name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Meta tags for SEO -->
         <meta name="description" content="Lonely Galaxy | Your intergalactic travel guide for trips beyond your wildest dreams.">
-        <meta
-        name="keywords" content="galaxy, lonely galaxy, travel, travel guide, exploring, vacation, tourism">
+        <meta name="keywords" content="galaxy, lonely galaxy, travel, travel guide, exploring, vacation, tourism">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <link
-        rel="manifest" href="assets/favicon/site.webmanifest">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
 
         <!-- Stylesheet-->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -62,47 +59,48 @@
         
             <section class="about">
                 <!-- Bookings Form-->
-                <form action="">
+                <form action=""> <!-- Add action and method ! -->
                     <fieldset>
                         <legend>Leave it with us</legend>
-                        <label for="name">Your Name</label><br>
-                        <input type="text" class="text-input" name="name" id="name" required> <br>
-                        
-                        <label for="email">Your Email</label><br>
-                        <input type="email" class="text-input" name="email" id="email" required> <br>
 
-                    <div class="selection">
-                        <label for="species">Your Species</label>
-                        <select name="species" id="species" class="text-input" required>
-                            <option value="species">Please Select</option>
-                            <option value="bothan">Bothan</option>
-                            <option value="duro">Duro</option>
-                            <option value="human">Human</option>
-                            <option value="rodian">Rodian</option>
-                            <option value="sullustan">Sullustan</option>
-                        </select>
-                    </div>
+                        <div class="input">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="text-input" name="name" id="name" required><br>
+                            
+                            <label for="email">Your Email</label>
+                            <input type="email" class="text-input" name="email" id="email" required><br>
+                        </div>
 
-                    <div class="selection">
-                        <label for="date">Your Date</label>
-                        <input type="date" name="datepicker" id="datepicker" class="text-input" required>
-                    </div>
+                        <div class="selection">
+                            <label for="species">Your Species</label>
+                            <select name="species" id="species" class="text-input" required>
+                                <option value="species">Please Select</option>
+                                <option value="bothan">Bothan</option>
+                                <option value="duro">Duro</option>
+                                <option value="human">Human</option>
+                                <option value="rodian">Rodian</option>
+                                <option value="sullustan">Sullustan</option>
+                            </select><br>
+                        </div>
+
+                        <div class="selection">
+                            <label for="date">Your Date</label>
+                            <input type="date" name="datepicker" id="datepicker" class="text-input" required><br>
+                        </div>
 
                         <div class="radio-buttons">
                             <p>Your Destination</p>
                             <input type="radio" name="planetpicker" id="coruscant" value="coruscant">
-                            <label for="coruscant">Coruscant</label>
+                            <label for="coruscant">Coruscant</label><br>
 
                             <input type="radio" name="planetpicker" id="hollastin" value="hollastin">
-                            <label for="hollastin">Hollastin</label>
+                            <label for="hollastin">Hollastin</label><br>
 
                             <input type="radio" name="planetpicker" id="rendili" value="rendili">
-                            <label for="rendili">Rendili</label>
+                            <label for="rendili">Rendili</label><br>
                         </div>
                         
                         <button type="submit" class="bookings-button">Request personalized package</button>
-
-
                     </fieldset>
                 </form>
 
@@ -122,7 +120,6 @@
                     </p>
                 </div>
             </section>
-
         </main>
 
         <!-- Footer -->
