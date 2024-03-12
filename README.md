@@ -80,6 +80,8 @@ About | ![Wireframe About Desktop Image](link) | ![Wireframe About Mobile Image]
 Destinations | ![Wireframe Destinations Desktop Image](link) | ![Wireframe Destinations Mobile Image](link)
 Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobile Image](link)
 
+[Back to top ⇧](#lonely-galaxy)
+
 ## Features
 ### General
 - The site was built using a mobile-first approach. 
@@ -133,44 +135,57 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
 - This page is displayed in case of broken or misspelled links, and contains a link back to the Home page.
 - The image is a ____ on-planet view of Coruscant, one of Lonely Galaxy's partner planets.
 
+[Back to top ⇧](#lonely-galaxy)
+
 ## Technologies Used
 ### Languages
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, Libraries, and Programs 
-* [Google Fonts](https://fonts.google.com/)
+- [Google Fonts](https://fonts.google.com/)
     - Google Fonts was used to find suitable font pairings, as well as link to the fonts in the .html files.
 
-* [Font Awesome](https://fontawesome.com/)
-     - Font Awesome was used to add icons in order to create a better visual experience for UX purposes.
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome was used to add icons in order to create a better visual experience for UX purposes.
 
-* [TinyPNG](https://tinypng.com/)
+- [Favicon](favicon.io)
+    - Favicon was used to create and import a favicon for the website.
+
+- [Image Color Picker](https://imagecolorpicker.com/)
+    - Image Color Picker was used to identify the HEX and RGB color codes used in the main image on the Home page, and to create a color palette based on the image.
+
+- [AI Alt Text Generator](https://alttext.ai/)
+    - AI Alt Text Generator was used to help create alt text for all images.
+
+- [TinyPNG](https://tinypng.com/)
     - TinyPNG was used to reduce the file size of the images for the website.
 
-* [GitPod](https://gitpod.io/)
-     - GitPod was used for writing code, committing, and then pushing to GitHub.
+- [GitPod](https://gitpod.io/)
+    - GitPod was used for writing code, committing, and then pushing to GitHub.
 
-* [GitHub](https://github.com/)
-     - GitHub was used to store the project after pushing.
+- [GitHub](https://github.com/)
+    - GitHub was used to store the project after pushing.
 
-* [Balsamiq](https://balsamiq.com/)
-     - Balsamiq was used to create the wireframes during the design phase of the project.
+- [Balsamiq](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design phase of the project.
 
-* [Am I Responsive?](http://ami.responsivedesign.is/#)
+- [Am I Responsive?](http://ami.responsivedesign.is/#)
     - Am I Responsive was used to ensure responsive design throughout the process and to generate the mockup images at the top of this file.
 
-* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/)
     - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
 
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     - Chrome DevTools was used during the development process for code review and to test responsiveness and accessibility.
 
-* [W3C Markup Validator](https://validator.w3.org/)
+- [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
 
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
+
+[Back to top ⇧](#lonely-galaxy)
 
 ## Testing
 ### Testing User Stories
@@ -216,7 +231,7 @@ As a customer, I want to connect with the business on social media.
     ![Lighthouse Report 404 Page Image](link)
 
 ### Tools Testing
-- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+- Chrome DevTools
 
     - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
 
@@ -228,3 +243,110 @@ As a customer, I want to connect with the business on social media.
     
     - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to test responsiveness in different screen sizes during the development process.
 
+### Manual Testing
+**Browser Compatibility**
+Browser | Issues ? 
+--- | --- 
+Google Chrome | No issues with appearance, responsiveness, or functionality.
+Safari | No issues with appearance, responsiveness, or functionality.
+Mozilla Firefox | No issues with appearance, responsiveness, or functionality.
+Microsoft Edge | No issues with appearance, responsiveness, or functionality.
+
+**Device Compatibility**
+Device | Issues ? 
+--- | --- 
+MacBook Pro 13" | No issues with appearance, responsiveness, or functionality.
+iPhone 13 Mini | No issues with appearance, responsiveness, or functionality.
+iPad 9th Generation | No issues with appearance, responsiveness, or functionality.
+Acer Predator Helios 300 | No issues with appearance, responsiveness, or functionality.
+Black Shark PAR-HOA | No issues with appearance, responsiveness, or functionality.
+
+**Common Elements Testing**
+
+All Pages
+- Header
+    - Clicking on the logo will bring clients back to the Home page.
+    - Clicking the circular icon opens the navigation bar on mobile devices.
+
+- Navigation Bar
+    - Clicking on one of the links in the navigation bar brings clients to the specified pages.
+    - Hovering over the links in the navigation bar triggers a hover effect which changes the color of the text.
+    - The active page is highlighted with an underline text decoration.
+
+- Footer
+    - Clicking on the social media icons opens the respective website in a new tab.
+    - Clickig on the location icon brings clients to the Bookings page.
+
+Home Page
+- Hovering over the quote triggers a hover effect which underlines the text.
+- Clicking on the quote brings clients to the About page.
+
+Destinations Page
+- Hovering over the cards triggers a hover effect which has the card slide up a few pixels.
+- Hovering over the Learn More button inverts the colors of the button and its text.
+- Clickin on the Learn More button brings clients to the Bookings page.
+
+Bookings Page
+- When filling out the form, clients are required to fill out all forms before submitting.
+- Hovering over the Request Personalized Package button inverts the colors of the button and its text.
+- Clicking and dragging on the map moves the visible area on the map
+- Clicking the plus and minus buttons changes the zoom of the map.
+
+404 Page
+ - Clicking on the homepage link brings the customer back to the Home page.
+
+ [Back to top ⇧](#lonely-galaxy)
+
+## Finished Product
+
+Page | Desktop Version | Mobile Version
+--- | --- | ---
+Home | --- | ---
+About | --- | ---
+Destinations | --- | ---
+Bookings | --- | ---
+
+[Back to top ⇧](#lonely-galaxy)
+
+## Deployment
+This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to [GitHub](https://github.com/), using the GitPod terminal.
+
+### GitHub Pages
+Here are the steps to deploy a website to GitHub Pages from its GitHub repository:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+2. At the top of the Repository, locate the Settings button on the menu.
+    - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
+
+3. Scroll down the Settings page until you locate the Pages section.
+
+4. Under Source, click the dropdown called None and select Master Branch.
+
+5. The page will refresh automatically and generate a link to your website.
+
+[Back to top ⇧](#lonely-galaxy)
+
+## Credits
+### Content
+All content was written by the developer.
+
+### Media
+All images on the website itself were generated by Alex Büttner using [Getimg.ai](https://getimg.ai/).
+The image used for the Favicon was generated by Ronny Hantusch.
+
+### Code
+[Stack Overflow](https://stackoverflow.com/) and Kevin Powell's channel on [YouTube](https://www.youtube.com/@KevinPowell) were consulted on a regular basis for both inspiration and to gain a deeper understanding of certain parts of the code.
+
+[Back to top ⇧](#lonely-galaxy)
+
+## Acknowledgements
+- Code Institute and the Slack community for their support and motivation.
+
+- Marcel, my mentor, for his feedback and encouragement.
+
+- Nono, for walking me through a ton of questions in the middle of the night.
+
+- My husband for providing the inspiration for this project and supporting me every step of the way. 
+
+[Back to top ⇧](#lonely-galaxy)
