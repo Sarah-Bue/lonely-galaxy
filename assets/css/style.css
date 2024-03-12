@@ -126,7 +126,7 @@ main {
     text-align: justify;
 }
 
-/*Hover Effects for quote link */
+/* Hover Effects for quote link */
 #quote a:hover {
     text-decoration: underline;
 }
@@ -298,6 +298,13 @@ input[type="radio"] {
     display: block;
     text-align: center;
     margin: 20px 40px;
+}
+
+/* 404 Section */
+#404-img {
+    background: url(../images/coruscant-onplanet.jpeg) no-repeat center center / cover;
+    object-fit: cover;
+    display: flex;
 }
 
 /* ---------- FOOTER SECTION STYLES ---------- */
