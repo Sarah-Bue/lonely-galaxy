@@ -254,7 +254,7 @@ label:first-of-type {
 }
 
 .text-input:focus {
-    outline: 2px solid #383a45;
+    outline: none; 
     border-radius: 6px;
 }
 

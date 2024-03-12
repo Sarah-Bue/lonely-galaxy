@@ -41,20 +41,18 @@ Visit the deployed website [here](https://sarah-bue.github.io/lonely-galaxy/).
 
 ## User Experience (UX)
 ### Project Goals
-The website should -
-- present glimpses into other worlds, appealing to potential clients’ sense of wonder and adventure. 
-- convey that Lonely Galaxy staff are excited to help clients achieve their dream experience. 
-- provide clients with an easy way to find and contact Lonely Galaxy. 
-- offer information about their partner planets and possible destinations. 
-- allow clients to easily contact lonely Galaxy to request more information or a personalised package for their journey. 
+- The website should present glimpses into other worlds, appealing to potential clients’ sense of wonder and adventure. 
+- The website should convey that Lonely Galaxy staff are excited to help clients achieve their dream experience. 
+- The website should provide clients with an easy way to find and contact Lonely Galaxy. 
+- The website should offer information about their partner planets and possible destinations. 
+- The website should allow clients to easily contact lonely Galaxy to request more information or a personalised package for their journey. 
 
 ### User Stories
-As a customer, I want to -
-- easily find the business’ contact information and locations.
-- navigate the website intuitively on different devices. 
-- learn more about the business and its offers. 
-- be able to request more information directly from the website.
-- connect with the business on social media. 
+- As a client, I want to easily find the business’ contact information and locations.
+- As a client, I want to navigate the website intuitively on different devices. 
+- As a client, I want to learn more about the business and its offers. 
+- As a client, I want to be able to request more information directly from the website.
+- As a client, I want to connect with the business on social media. 
 
 ### Color Scheme
 ![Color Scheme Image](link)
@@ -91,16 +89,17 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
 **Header**
 ![Header Image](link)
 - The header is identical across all pages.
-- The header contains the company logo in the top left, and a navigation bar in the top right. 
-- The company logo functions as a link to the landing page.
+- The header contains the business logo in the top left, and a navigation bar in the top right. 
+- The logo functions as a link to the landing page.
 - The navigation bar  contains links to all other pages in the top right. 
 - The current page is highlighted in a different color, and a hover effect for the remaining links provides additional feedback to the user. 
 
 **Footer**
 ![Footer Image](link)
 - The footer is identical across all pages.
-- The footer contains the company address in the bottom left, and links to the company's social media channels in the bottom right.
-- The address functions as a link to the Bookings page, which includes a map.
+- The footer contains a location icon in the bottom left, and links to the business' social media channels in the bottom right.
+- On larger screens, the business' address appears next to the location icon.
+- The location icon functions as a link to the Bookings page, which includes a map and the business' full address.
 
 ### Home Page
 **Main Image**
@@ -189,23 +188,23 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
 
 ## Testing
 ### Testing User Stories
-As a customer, I want to easily find the business’ contact information and locations.
+As a client, I want to easily find the business’ contact information and locations.
 - The footer of each page contains the address as well as a link to the Bookings Page, wihch contains a Google Map centered on Lonely Planet's planetary headquarters.
 
-As a customer, I want to navigate the website intuitively on different devices. 
+As a client, I want to navigate the website intuitively on different devices. 
 - The navigation bar is visible on all pages on larger screens, and easily accessible via a dropdown menu on mobile devices.
 - The pages maintain a similar structure so clients can focus on the content.
 - The content is structured using headings and paragraphs to allow for easy navigation.
 
-As a customer, I want to learn more about the business and its offers.
+As a client, I want to learn more about the business and its offers.
 - The About page contains useful information about the business and its services.
 - The Destinations page contains further information about available offers, broken down by destination.
 - The Bookings page contains a form to request more information.
 
-As a customer, I want to be able to request more information directly from the website.
+As a client, I want to be able to request more information directly from the website.
 - The form on the Bookings page can be used to request personalized offers depending on clients' needs.
 
-As a customer, I want to connect with the business on social media. 
+As a client, I want to connect with the business on social media. 
 - The footer on each page contains links to Lonely Galaxy's social media channels.
 
 ### Code Validation
@@ -293,7 +292,7 @@ Bookings Page
 - Clicking the plus and minus buttons changes the zoom of the map.
 
 404 Page
- - Clicking on the homepage link brings the customer back to the Home page.
+ - Clicking on the homepage link brings the client back to the Home page.
 
  [Back to top ⇧](#lonely-galaxy)
 
