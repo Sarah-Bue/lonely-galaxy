@@ -26,14 +26,14 @@ h2 {
 /* ---------- HEADER SECTION STYLES ---------- */
 
 header {
-    background-color: #445371;  /* How can I turn this into a gradient that covers both the header section and the navbar items ? */
+    background-color: #445371;
     padding: 0 1rem;
     position: fixed;
     z-index: 2;
     width: 100%;
     box-shadow: 0 3px 3px #383a45;
     display: flex;
-    justify-content: space-between; /* How can I space the list items out more from each other / pull them and the toggle symbol away from the right margin ?*/
+    justify-content: space-between; 
     align-items: baseline;
 }
 
@@ -316,6 +316,12 @@ footer {
     align-items: baseline;
 }
 
+footer a {
+    font-size: 120%;
+    padding: 10px;
+    color: #ffffff;
+}
+
 #social-networks {
     text-align: center;
     padding: 10px 0;
@@ -337,6 +343,10 @@ footer {
 #address {
     color: #ffffff;
     margin-left: 20px;
+}
+
+#address-hide {
+    display: none;
 }
 
 /* ---------- Media Queries ---------- */
@@ -393,6 +403,11 @@ footer {
    fieldset {
     height: 90%;
    }
+
+   /* Footer */
+   #address-hide {
+    display: contents;
+}
 }
 
 /* Media Query: laptops and larger screens (992px and up) */
