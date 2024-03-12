@@ -16,13 +16,14 @@ Visit the deployed website [here](https://sarah-bue.github.io/lonely-galaxy/).
     5. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
-    2. [Landing Page](#landing-page)
-    3. [Treatments Page](#treatments-page)
-    4. [Book Now Page](#book-now-page)
-    5. [404 Error Page](#404-error-page)
+    2. [Home Page](#home-page)
+    3. [About Page](#about-page)
+    4. [Destinations Page](#destinations-page)
+    5. [Bookings Page](#bookings-page)
+    6. [404 Page](#404-page)
  3. [Technologies Used](#technologies-used)
-    1. [Languages Used](#languages-used)
-    2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+    1. [Languages](#languagesd)
+    2. [Frameworks, Libraries, and Programs](#frameworks-libraries-and-programs)
 4. [Testing](#testing)
     1. [Testing User Stories](#testing-user-stories)
     2. [Code Validation](#code-validation)
@@ -133,7 +134,6 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
 - The image is a ____ on-planet view of Coruscant, one of Lonely Galaxy's partner planets.
 
 ## Technologies Used
-
 ### Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
@@ -164,7 +164,7 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
     - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used during the development process for code review and to test responsiveness.
+    - Chrome DevTools was used during the development process for code review and to test responsiveness and accessibility.
 
 * [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
@@ -174,3 +174,57 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
 
 ## Testing
 ### Testing User Stories
+As a customer, I want to easily find the business’ contact information and locations.
+- The footer of each page contains the address as well as a link to the Bookings Page, wihch contains a Google Map centered on Lonely Planet's planetary headquarters.
+
+As a customer, I want to navigate the website intuitively on different devices. 
+- The navigation bar is visible on all pages on larger screens, and easily accessible via a dropdown menu on mobile devices.
+- The pages maintain a similar structure so clients can focus on the content.
+- The content is structured using headings and paragraphs to allow for easy navigation.
+
+As a customer, I want to learn more about the business and its offers.
+- The About page contains useful information about the business and its services.
+- The Destinations page contains further information about available offers, broken down by destination.
+- The Bookings page contains a form to request more information.
+
+As a customer, I want to be able to request more information directly from the website.
+- The form on the Bookings page can be used to request personalized offers depending on clients' needs.
+
+As a customer, I want to connect with the business on social media. 
+- The footer on each page contains links to Lonely Galaxy's social media channels.
+
+### Code Validation
+[W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate all pages of the project to ensure there were no errors in the code.
+
+### Accessibility
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+
+**Lighthouse Reports**
+- Home Page
+    ![Lighthouse Report Home Page Image](link)
+
+- About Page
+    ![Lighthouse Report About Page Image](link)
+
+- Destinations Page
+    ![Lighthouse Report Destinations Page Image](link)
+
+ - Bookings Page
+    ![Lighthouse Report Bookings Page Image](link)
+
+- 404 Page
+    ![Lighthouse Report 404 Page Image](link)
+
+### Tools Testing
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+    - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
+
+- Responsiveness
+    
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of all pages across different devices.
+
+    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of all pages on different screen sizes.
+    
+    - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to test responsiveness in different screen sizes during the development process.
+
