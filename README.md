@@ -229,7 +229,7 @@ As a client, I want to connect with the business on social media.
  ![CSS Validation Image](assets/readme-files/css-validated.png)
 
 ### Accessibility
-[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to measure the quality of each page, focussing on performance, accessibility, best practices, and SEO scores.
 
 **Lighthouse Reports**
 - Home Page
