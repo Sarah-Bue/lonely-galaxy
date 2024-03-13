@@ -218,6 +218,10 @@ main {
     position: relative;
 }
 
+#bookings-h2 {
+    margin: 20px;
+}
+
 #getintouch {
     margin-bottom: 5px;
 }
@@ -252,6 +256,7 @@ label:first-of-type {
     background: transparent;
     border: none;
     border-bottom: 2px solid #b943ae;
+    min-width: 50%;
 }
 
 .text-input:focus {
@@ -416,14 +421,14 @@ footer a {
    }
 
    fieldset {
-    height: 90%;
+    height: 100%;
    }
 
    /* Footer */
    #address {
     font-size: 100%;
    }
-   
+
    #address-hide {
     display: contents;
 }
@@ -459,14 +464,13 @@ footer a {
     }
 
     /* Bookings Section */
-
     .about2 {
         width: 50%;
     }
 
     form {
-        width: 50%;
-    }
+        width: 75%;
+    } 
 
     fieldset {
         width: 100%;
