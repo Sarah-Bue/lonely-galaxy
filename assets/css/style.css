@@ -314,7 +314,6 @@ input[type="radio"] {
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
-
 }
 
 /* ---------- FOOTER SECTION STYLES ---------- */
@@ -392,8 +391,7 @@ footer a {
 
     /* Main Section */
     main {
-        /* move main content down to accomodate larger header */
-        margin-top: 80px;
+        margin-top: 75px; /* move main content down to accomodate larger header */
     }
 
     /* About Section */
