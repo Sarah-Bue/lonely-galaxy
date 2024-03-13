@@ -1,5 +1,5 @@
 # Lonely Galaxy
-![Lonely Galaxy Mockup Image](link)
+![Lonely Galaxy Mockup Image](assets/readme-files/mockups.png)
 
 Lonely Galaxy is a fictional travel guide with branches all across the galaxy, including Earth. Lonely Galaxy partners with a wide variety of planet-based organisations to ensure a unique travel experience for its clients. 
 
@@ -104,7 +104,7 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
 
 ### Home Page
 **Main Image**
-![Home Image](link)
+![Home Image](links)
 - The main image is designed to attract attention and showcase the vastness of the galaxy.
 - Part of the image is overlayed by a quote that is meant to inspire and encourage clients to explore further.
 - The quote serves as a link to the About page.
@@ -131,9 +131,9 @@ Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobi
 - This section displays a Google Map to Lonely Planet's geographical location based on the planet you are accessing the website from.
 
 ### 404 Page
-![404 Page](link)
+![404 Page](assets/readme-files/404-desktop.png)
 - This page is displayed in case of broken or misspelled links, and contains a link back to the Home page.
-- The image is a ____ on-planet view of Coruscant, one of Lonely Galaxy's partner planets.
+- The image is an on-planet view of the Senate Building on Coruscant, one of Lonely Galaxy's partner planets.
 
 [Back to top ⇧](#lonely-galaxy)
 
@@ -301,10 +301,11 @@ Bookings Page
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
-Home | --- | ---
-About | --- | ---
-Destinations | --- | ---
-Bookings | --- | ---
+Home | [Home Desktop Image](assets/readme-files/home-desktop.png) | [Home Mobile Image](assets/readme-files/home-mobile.png)
+About | [About Desktop Image](assets/readme-files/about-desktop.png) | [About Mobile Image](assets/readme-files/about-mobile.png)
+Destinations | [Destinations Desktop Image](assets/readme-files/destinations-desktop.png) | [Destinations Mobile Image](assets/readme-files/destinations-mobile.png)
+Bookings | [Bookings Desktop Image](assets/readme-files/bookings-desktop.png) | [Bookings Mobile Image](assets/readme-files/destinations-mobile.png)
+404 | [404 Desktop Image](assets/readme-files/404-desktop.png) | [404 Mobile Image](assets/readme-files/404-mobile.png)
 
 [Back to top ⇧](#lonely-galaxy)
 
