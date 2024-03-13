@@ -74,10 +74,11 @@ The fallback font for each font, in case any aren’t loaded correctly, is Sans 
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
-Home | ![Wireframe Home Desktop Image](link) | ![Wireframe Home Mobile Image](link)
-About | ![Wireframe About Desktop Image](link) | ![Wireframe About Mobile Image](link)
-Destinations | ![Wireframe Destinations Desktop Image](link) | ![Wireframe Destinations Mobile Image](link)
-Bookings | ![Wireframe Bookings Desktop Image](link) | ![Wireframe Bookings Mobile Image](link)
+Home | ![Wireframe Home Desktop Image](assets/wireframes/WF-home-desktop.png) | ![Wireframe Home Mobile Image](assets/wireframes/WF-home-mobile.png)
+About | ![Wireframe About Desktop Image](assets/wireframes/WF-about-desktop.png) | ![Wireframe About Mobile Image](assets/wireframes/WF-about-mobile.png)
+Destinations | ![Wireframe Destinations Desktop Image](assets/wireframes/WF-destinations-desktop.png) | ![Wireframe Destinations Mobile Image](assets/wireframes/WF-destinations-mobile.png)
+Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-desktop.png) | ![Wireframe Bookings Mobile Image](assets/wireframes/WF-bookings-mobile.png)
+404 | ![Wireframe 404 Desktop Image](assets/wireframes/WF-404-desktop.png) | ![Wireframe 404 Mobile Image](assets/wireframes/WF-404-mobile.png)
 
 [Back to top ⇧](#lonely-galaxy)
 
@@ -216,19 +217,19 @@ As a client, I want to connect with the business on social media.
 
 **Lighthouse Reports**
 - Home Page
-    ![Lighthouse Report Home Page Image](link)
+    ![Lighthouse Report Home Page Image](assets/readme-files/lighthouse-home.png)
 
 - About Page
-    ![Lighthouse Report About Page Image](link)
+    ![Lighthouse Report About Page Image](assets/readme-files/lighthouse-about.png)
 
 - Destinations Page
-    ![Lighthouse Report Destinations Page Image](link)
+    ![Lighthouse Report Destinations Page Image](assets/readme-files/lighthouse-destinations.png)
 
  - Bookings Page
-    ![Lighthouse Report Bookings Page Image](link)
+    ![Lighthouse Report Bookings Page Image](assets/readme-files/lighthouse-bookings.png)
 
 - 404 Page
-    ![Lighthouse Report 404 Page Image](link)
+    ![Lighthouse Report 404 Page Image](assets/readme-files/lighthouse-404.png)
 
 ### Tools Testing
 - Chrome DevTools
@@ -245,7 +246,7 @@ As a client, I want to connect with the business on social media.
 
 ### Manual Testing
 **Browser Compatibility**
-Browser | Issues ? 
+Browser | Issues 
 --- | --- 
 Google Chrome | No issues with appearance, responsiveness, or functionality.
 Safari | No issues with appearance, responsiveness, or functionality.
@@ -253,7 +254,7 @@ Mozilla Firefox | No issues with appearance, responsiveness, or functionality.
 Microsoft Edge | No issues with appearance, responsiveness, or functionality.
 
 **Device Compatibility**
-Device | Issues ? 
+Device | Issues 
 --- | --- 
 MacBook Pro 13" | No issues with appearance, responsiveness, or functionality.
 iPhone 13 Mini | No issues with appearance, responsiveness, or functionality.
@@ -301,11 +302,11 @@ Bookings Page
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
-Home | [Home Desktop Image](assets/readme-files/home-desktop.png) | [Home Mobile Image](assets/readme-files/home-mobile.png)
-About | [About Desktop Image](assets/readme-files/about-desktop.png) | [About Mobile Image](assets/readme-files/about-mobile.png)
-Destinations | [Destinations Desktop Image](assets/readme-files/destinations-desktop.png) | [Destinations Mobile Image](assets/readme-files/destinations-mobile.png)
-Bookings | [Bookings Desktop Image](assets/readme-files/bookings-desktop.png) | [Bookings Mobile Image](assets/readme-files/destinations-mobile.png)
-404 | [404 Desktop Image](assets/readme-files/404-desktop.png) | [404 Mobile Image](assets/readme-files/404-mobile.png)
+Home | ![Home Desktop Image](assets/readme-files/home-desktop.png) | ![Home Mobile Image](assets/readme-files/home-mobile.png)
+About | ![About Desktop Image](assets/readme-files/about-desktop.png) | ![About Mobile Image](assets/readme-files/about-mobile.png)
+Destinations | ![Destinations Desktop Image](assets/readme-files/destinations-desktop.png) | ![Destinations Mobile Image](assets/readme-files/destinations-mobile.png)
+Bookings | ![Bookings Desktop Image](assets/readme-files/bookings-desktop.png) | ![Bookings Mobile Image](assets/readme-files/bookings-mobile.png)
+404 | ![404 Desktop Image](assets/readme-files/404-desktop.png) | ![404 Mobile Image](assets/readme-files/404-mobile.png)
 
 [Back to top ⇧](#lonely-galaxy)
 
