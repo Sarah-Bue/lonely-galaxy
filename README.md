@@ -111,9 +111,11 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 - The quote serves as a link to the About page.
 
 ### About Page
+**Banner**
 ![About Banner](assets/readme-files/about-banner.png)
 - The banner image is an eye-catching, on-planet view of Rendili, one of Lonely Galaxy's partner planets.
 
+**Text**
 ![About Text](assets/readme-files/about-text.png)
 - The text section provides clients with more information about the business and its services.
 
@@ -124,14 +126,18 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 - Each card is fully responsive and easy to edit or replicate in case destinations change or more destinations are added.
 
 ### Bookings Page
+**Banner**
+
 ![Bookings Banner](assets/readme-files/bookings-banner.png)
 - The banner image is a serene, on-planet view of Hollastin, one of Lonely Galaxy's partner planets.
 
 **Contact Form**
+
 ![Form Image](assets/readme-files/bookings-form.png)
 - The contact form allows clients to request more information as well as their own, personalized offer for a travel experience with Lonely Galaxy.
 
 **Get in touch**
+
 ![Get in Touch Image](assets/readme-files/bookings-map.png)
 - This section displays a Google Map to Lonely Planet's geographical location based on the planet you are accessing the website from.
 
@@ -215,6 +221,12 @@ As a client, I want to connect with the business on social media.
 
 ### Code Validation
 [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate all pages of the project to ensure there were no errors in the code.
+
+**HTML Validation**
+ ![HTML Validation Image](assets/readme-files/html-validated.png)
+
+**CSS Validation**
+ ![CSS Validation Image](assets/readme-files/css-validated.png)
 
 ### Accessibility
 [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) in [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
