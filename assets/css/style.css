@@ -141,7 +141,7 @@ main {
 }
 
 .about {
-    margin: 20px; /* How do I get rid of the exess empty space below the text on larger screens? */
+    margin: 20px; 
 }
 
 .about-h2 {
@@ -217,6 +217,11 @@ main {
     background: url(../images/hollastin-onplanet.jpeg) no-repeat center center / cover;
     position: relative;
 }
+
+#getintouch {
+    margin-bottom: 5px;
+}
+
 /* Form Styles */
 fieldset {
     margin: 2em 0;
@@ -270,7 +275,7 @@ input [type="email"], input [type="text"] {
 
 #dest {
     margin-bottom: 5px;
-}
+} 
 
 input[type="radio"] {
     margin-left: 1.5em;
@@ -401,7 +406,7 @@ footer a {
     }
 
     .about {
-        margin: 40px; /* How do I get rid of the exess empty space below the text on larger screens? */
+        margin: 40px; 
     }
 
     /* Bookings Section */
@@ -448,7 +453,16 @@ footer a {
         align-items: stretch;
     }
 
-    /* Form Styles */
+    /* Bookings Section */
+
+    .about2 {
+        width: 50%;
+    }
+
+    form {
+        width: 50%;
+    }
+
     fieldset {
         width: 100%;
     }
