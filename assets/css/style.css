@@ -135,7 +135,7 @@ main {
 #about-img {
     height: 250px;
     width: 100%;
-    background: url(../images/rendili-onplanet.jpeg) no-repeat center bottom / cover;
+    background: url(../images/rendili-onplanet.jpeg) no-repeat center center / cover;
     position: relative;
 }
 
@@ -167,7 +167,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 3px 3px #383a45;
     overflow: hidden;
-    background-color: #445371;
+    background-color: #383a45;
     color: #ffffff;
     transition: transform 0.6s ease;
 }
@@ -194,12 +194,12 @@ main {
 
 .card-button {
     display: inline-block;
+    display: block;
     background-color: #b943ae;
     text-decoration: none;
     color: #ffffff;
     border-radius: 6px;
     padding: 8px 16px;
-    display: block;
     text-align: center;
     margin: 20px 40px;
 }
@@ -298,6 +298,11 @@ input[type="radio"] {
     display: block;
     text-align: center;
     margin: 20px 40px;
+}
+
+.bookings-button:hover {
+    color:#b943ae;
+    background-color: #ffffff;
 }
 
 /* 404 Section */

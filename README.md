@@ -55,11 +55,12 @@ Visit the deployed website [here](https://sarah-bue.github.io/lonely-galaxy/).
 - As a client, I want to connect with the business on social media. 
 
 ### Color Scheme
-![Color Scheme Image](link)
+![Color Scheme Image](assets/readme-files/palette.png)
 The colours used for this site are two different types of grey (#b7adb2 and #383a45), a dark blue (#445371), and a bright pink (#b943ae). 
 The lighter of the two grey tones is used as the main background color, while the blue color is used to visually separate the header and footer sections from the main body of the page.
 The dark grey tone is used for drop shadow effects to give some elements are more plastic view, as well as for the main font. 
 The pink color is used for highlighter effects as well as to visually distinguish the buttons.
+Additionally, white is used as a text color on darker backgrounds to create a greater contrast and increase accessibility.
 
 ### Typography
 The site makes use of three fonts which have been imported from Google Fonts. 
