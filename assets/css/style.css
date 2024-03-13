@@ -147,11 +147,6 @@ main {
     margin: 20px;
 }
 
-.about div p {
-    line-height: 20px;
-    margin-bottom: 20px; /* How can I give the paragraphs more line-height? */
-}
-
 /* Destinations Section */
 .card-container {
     display: flex;
@@ -306,10 +301,20 @@ input[type="radio"] {
 }
 
 /* 404 Section */
-#404-img {
+#error-img {
     background: url(../images/coruscant-onplanet.jpeg) no-repeat center center / cover;
     object-fit: cover;
     display: flex;
+}
+
+#error {
+    color: black;
+    font-family: "Oxanium", sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+
 }
 
 /* ---------- FOOTER SECTION STYLES ---------- */
