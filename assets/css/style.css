@@ -358,6 +358,7 @@ footer a {
 #address {
     color: #ffffff;
     margin-left: 20px;
+    font-size: 90%;
 }
 
 #address-hide {
@@ -419,6 +420,10 @@ footer a {
    }
 
    /* Footer */
+   #address {
+    font-size: 100%;
+   }
+   
    #address-hide {
     display: contents;
 }
