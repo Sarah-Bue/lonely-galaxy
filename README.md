@@ -101,7 +101,7 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 - The footer is identical across all pages.
 - The footer contains a location icon in the bottom left, and links to the business' social media channels in the bottom right.
 - On larger screens, the business' address appears next to the location icon.
-- The location icon functions as a link to the Bookings page, which includes the business' full address.
+- The location icon functions as a link to the Bookings page, which includes the business' full planetary address and contact information.
 
 ### Home Page
 **Main Image**
@@ -139,7 +139,7 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 **Get in touch**
 
 ![Get in Touch Image](assets/readme-files/bookings-getintouch.png)
-- This section displays Lonely Planet's physical address based on the planet you are accessing the website from.
+- This section displays Lonely Planet's physical address and contact information based on the planet the client is accessing the website from.
 
 ### 404 Page
 ![404 Page](assets/readme-files/404-desktop.png)
@@ -201,7 +201,7 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 ## Testing
 ### Testing User Stories
 As a client, I want to easily find the business’ contact information and locations.
-- The footer of each page contains the address as well as a link to the Bookings Page, wihch contains the address of Lonely Planet's planetary headquarters.
+- The footer of each page contains the address as well as a link to the Bookings Page, wihch contains the address and contact information of Lonely Planet's planetary headquarters.
 
 As a client, I want to navigate the website intuitively on different devices. 
 - The navigation bar is visible on all pages on larger screens, and easily accessible via a dropdown menu on mobile devices.
