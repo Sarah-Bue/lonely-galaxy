@@ -289,8 +289,6 @@ select, option, input, label, button {
 /* 404 Page */
 #error-img {
     background: url(../images/coruscant-onplanet.jpeg), no-repeat center center / cover;
-  /*   object-fit: cover;
-    display: flex; */
 }
 
 /* ---------- FOOTER SECTION STYLES ---------- */
