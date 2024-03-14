@@ -374,10 +374,22 @@ footer a {
     }
 
     /* Bookings Page */
+    form {
+        margin-left: 150px;
+    }
+
+    .form-box {
+        max-width: 80%;
+    }
+   
     .form-box label{
         display: block;
     }
 
+    form h2 {
+        margin-left: 0;
+    }
+   
    /* Footer */
    #address {
     font-size: 100%;
@@ -424,8 +436,13 @@ footer a {
         margin-top: 0;
     }    
 
+    form {
+        margin-left: 0;
+    }
+
     .form-box {
         flex-direction: row;
+        max-width: 100%;
     }
     
     .form-box label {
