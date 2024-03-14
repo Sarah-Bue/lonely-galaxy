@@ -59,21 +59,24 @@
         
             <h2 id="about-h2">Get in touch!</h2>
 
-            <section class="about">
+            <div class="wrapper">
                 <!-- Bookings Form-->
                 <form method="POST" action="https://formdump.codeinstitute.net">
-                    <fieldset>
-                        <legend>Leave it with us</legend>
 
-                        <div class="input">
+                        <!-- Name Label and Input Field -->
+                        <div class="form-box">
                             <label for="name">Your Name</label>
-                            <input type="text" class="text-input" name="name" id="name" required><br>
-                            
-                            <label for="email">Your Email</label>
-                            <input type="email" class="text-input" name="email" id="email" required><br>
+                            <input type="text" class="text-input" name="name" id="name" placeholder="Your Name" required>
                         </div>
-
-                        <div class="selection">
+                            
+                        <!-- Email Label and Input Field -->
+                        <div class="form-box">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="text-input" name="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        
+                        <!-- Species Selector -->
+                        <div class="form-box">
                             <label for="species">Your Species</label>
                             <select name="species" id="species" class="text-input" required>
                                 <option value="">Please Select</option>
@@ -85,25 +88,27 @@
                             </select><br>
                         </div>
 
+                        <!-- Destination Selector-->
+                        <div class="form-box">
+                            <label for="destination">Your Destination</label>
+                            <select name="destination" id="destination" class="text-input" required>
+                                <option value="">Please Select</option>
+                                <option value="coruscant">Coruscant</option>
+                                <option value="hollastin">Hollastin</option>
+                                <option value="rendili">Rendili</option>
+                            </select>
+                        </div>
+
+                        <!-- Datepicker -->
                         <div class="selection">
                             <label for="datepicker">Your Date</label>
                             <input type="date" name="datepicker" id="datepicker" class="text-input" required><br>
                         </div>
-
-                        <div class="radio-buttons">
-                            <p id="dest">Your Destination</p>
-                            <input type="radio" name="planetpicker" id="coruscant" value="coruscant">
-                            <label for="coruscant">Coruscant</label><br>
-
-                            <input type="radio" name="planetpicker" id="hollastin" value="hollastin">
-                            <label for="hollastin">Hollastin</label><br>
-
-                            <input type="radio" name="planetpicker" id="rendili" value="rendili">
-                            <label for="rendili">Rendili</label><br>
-                        </div>
                         
-                        <button type="submit" class="bookings-button">Request personalized package</button>
-                    </fieldset>
+                        <!-- Submit Button -->
+                        <div class="form-box">
+                            <button type="submit" class="bookings-button">Request personalized package</button>
+                        </div>
                 </form>
 
                 <!-- Call to Action -->
@@ -120,13 +125,8 @@
                         Earth
                     </p>
 
-                    <!-- Google Maps -->
-                    <div><iframe title="Google Maps centered on Liberty Island" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.279884611195!2d-74.05022926629375!3d40.68983314764599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2508ed1e8d553%3A0x79084fab31e7ed6c!2sLiberty%20Island!5e0!3m2!1sen!2sie!4v1709594298537!5m2!1sen!2sie"
-                            width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
                 </div>
-            </section>
+            </div>
         </main>
 
         <!-- Footer -->
