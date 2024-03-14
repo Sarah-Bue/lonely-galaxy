@@ -8,13 +8,10 @@
 /* General Styles */
 body {
     min-height: 100vh;
-    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Oxanium", sans-serif;
-/*     margin: 0; 
-    padding: 0; */
 }
 
 h2 {
@@ -140,14 +137,6 @@ main {
     position: relative;
 }
 
-.about {
-    margin: 20px; 
-}
-
-/* .about-h2 {
-    margin: 20px;
-} */
-
 /* Destinations Page */
 .card-container {
     display: flex;
@@ -236,24 +225,23 @@ main {
 }
 
 /* Form */
-select, option, input, label, button{
+select, option, input, label, button {
     padding: .5rem 1rem;
-    font-size: 1.5rem;
     color:#383a45;
 }
 
-.form-box{
+.form-box {
     padding: .5rem 0;
     display: flex;
     flex-direction: column;
 }
 
-.form-box label{
+.form-box label {
     display: none;
 }
 
 .form-box input,
-.form-box select{
+.form-box select {
     flex-basis: 100%;
     padding: .5em;
     margin-left: 15px;
@@ -263,7 +251,7 @@ select, option, input, label, button{
     min-width: 50%;
 }
 
-.form-box button{
+.form-box button {
     display: inline-block;
     background-color: #b943ae;
     text-decoration: none;
@@ -380,13 +368,8 @@ footer a {
         margin-top: 75px; /* move main content down to accomodate larger header */
     }
 
-    /* About Page */
-    .about-h2 {
+    h2 {
         font-size: 150%;
-    }
-
-    .about {
-        margin: 40px; 
     }
 
     /* Bookings Page */
@@ -401,7 +384,7 @@ footer a {
 
    #address-hide {
     display: contents;
-}
+    }
 }
 
 /* Media Query: laptops and larger screens (992px and up) */
@@ -412,16 +395,14 @@ footer a {
         color:#b943ae;
     }
 
-    /* About Page */
-    .about {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        gap: 50px;
+    /* Main Section */
+    h2 {
+        font-size: 200%;
     }
 
-    .about-h2 {
-        font-size: 200%;
+    .wrapper {
+        flex-direction: row;
+        margin: 20px 40px;
     }
 
     /* Destinations Page */
