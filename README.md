@@ -1,9 +1,9 @@
 # Lonely Galaxy
 ![Lonely Galaxy Mockup Image](assets/readme-files/mockups.png)
 
-Lonely Galaxy is a fictional travel guide with branches all across the galaxy, including Earth. Lonely Galaxy partners with a wide variety of planet-based organisations to ensure a unique travel experience for its clients. 
+Lonely Galaxy is a fictional travel guide with branches all across the galaxy, including Earth. Lonely Galaxy partners with a wide variety of planet-based organizations to ensure a unique travel experience for its clients. 
 
-The purpose of the website is to provide both new and existing clients with information about the business and its services. Clients can view the catalogue of partner planets and request their own personalised package. 
+The purpose of the website is to provide both new and existing clients with information about the business and its services. Clients can view the catalogue of partner planets and request their own personalized package. 
 
 Visit the deployed website [here](https://sarah-bue.github.io/lonely-galaxy/).
 
@@ -48,15 +48,15 @@ Visit the deployed website [here](https://sarah-bue.github.io/lonely-galaxy/).
 - The website should allow clients to easily contact lonely Galaxy to request more information or a personalised package for their journey. 
 
 ### User Stories
-- As a client, I want to easily find the business’ contact information and locations.
-- As a client, I want to navigate the website intuitively on different devices. 
-- As a client, I want to learn more about the business and its offers. 
-- As a client, I want to be able to request more information directly from the website.
-- As a client, I want to connect with the business on social media. 
+- As a user, I want to easily find the business’ contact information and locations.
+- As a user, I want to navigate the website intuitively on different devices. 
+- As a user, I want to learn more about the business and its offers. 
+- As a user, I want to be able to request more information directly from the website.
+- As a user, I want to connect with the business on social media. 
 
 ### Color Scheme
 ![Color Scheme Image](assets/readme-files/palette.png)
-The colours used for this site are two different types of grey (#b7adb2 and #383a45), a dark blue (#445371), and a bright pink (#b943ae). 
+The colors used for this site are two different types of grey (#b7adb2 and #383a45), a dark blue (#445371), and a bright pink (#b943ae). 
 The lighter of the two grey tones is used as the main background color, while the blue color is used to visually separate the header and footer sections from the main body of the page.
 The dark grey tone is used for drop shadow effects to give some elements are more plastic view, as well as for the main font. 
 The pink color is used for highlighter effects as well as to visually distinguish the buttons.
@@ -77,7 +77,7 @@ Page | Desktop Version | Mobile Version
 Home | ![Wireframe Home Desktop Image](assets/wireframes/wf-home-desktop.png) | ![Wireframe Home Mobile Image](assets/wireframes/wf-home-mobile.png)
 About | ![Wireframe About Desktop Image](assets/wireframes/wf-about-desktop.png) | ![Wireframe About Mobile Image](assets/wireframes/wf-about-mobile.png)
 Destinations | ![Wireframe Destinations Desktop Image](assets/wireframes/wf-destinations-desktop.png) | ![Wireframe Destinations Mobile Image](assets/wireframes/wf-destinations-mobile.png)
-Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/wf-bookings-desktop.png) | ![Wireframe Bookings Mobile Image](assets/wireframes/wf-bookings-mobile.png)
+Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-desktop.png) | ![Wireframe Bookings Mobile Image](assets/wireframes/wf-bookings-mobile.png)
 404 | ![Wireframe 404 Desktop Image](assets/wireframes/wf-404-desktop.png) | ![Wireframe 404 Mobile Image](assets/wireframes/wf-404-mobile.png)
 
 [Back to top ⇧](#lonely-galaxy)
@@ -85,19 +85,21 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/wf-bookings-des
 ## Features
 ### General
 - The site was built using a mobile-first approach. 
-- Media queries were used to adapt features for larger screens to ensure responsive designs across different sizes. 
+- Media queries were used to adapt features for larger screens to ensure responsive designs across different screen sizes. 
 - Layout and color scheme were kept similar across pages to ensure a coherent look and effectively structure and present the information to clients.
 
 **Header**
 ![Header Image](assets/readme-files/header.png)
+The benefit of the header is that it allows clients to easily navigate between pages.
 - The header is identical across all pages.
 - The header contains the business logo in the top left, and a navigation bar in the top right. 
 - The logo functions as a link to the landing page.
-- The navigation bar  contains links to all other pages in the top right. 
-- The current page is highlighted in a different color, and a hover effect for the remaining links provides additional feedback to the user. 
+- The navigation bar contains links to all other pages in the top right. 
+- The current page is highlighted in a different color, and a hover effect for the remaining links provides additional feedback to clients. 
 
 **Footer**
 ![Footer Image](assets/readme-files/footer.png)
+The benefit of the footer is that it allows clients to easily connect with the business' social media channels and find the business' location.
 - The footer is identical across all pages.
 - The footer contains a location icon in the bottom left, and links to the business' social media channels in the bottom right.
 - On larger screens, the business' address appears next to the location icon.
@@ -139,7 +141,7 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/wf-bookings-des
 **Get in touch**
 
 ![Get in Touch Image](assets/readme-files/bookings-getintouch.png)
-- This section displays Lonely Planet's physical address and contact information based on the planet the client is accessing the website from.
+- This section displays Lonely Planet's physical address and contact information based on the planet clients are accessing the website from.
 
 ### 404 Page
 ![404 Page](assets/readme-files/404-desktop.png)
@@ -184,9 +186,6 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/wf-bookings-des
 - [Am I Responsive?](http://ami.responsivedesign.is/#)
     - Am I Responsive was used to ensure responsive design throughout the process and to generate the mockup images at the top of this file.
 
-- [Responsive Design Checker](https://www.responsivedesignchecker.com/)
-    - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
-
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     - Chrome DevTools was used during the development process for code review and to test responsiveness and accessibility.
 
@@ -200,23 +199,23 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/wf-bookings-des
 
 ## Testing
 ### Testing User Stories
-As a client, I want to easily find the business’ contact information and locations.
-- The footer of each page contains the address as well as a link to the Bookings Page, wihch contains the address and contact information of Lonely Planet's planetary headquarters.
+As a user, I want to easily find the business’ contact information and locations.
+- The footer of each page contains the address as well as a link to the Bookings Page, which contains the address and contact information of Lonely Planet's planetary headquarters.
 
-As a client, I want to navigate the website intuitively on different devices. 
+As a user, I want to navigate the website intuitively on different devices. 
 - The navigation bar is visible on all pages on larger screens, and easily accessible via a dropdown menu on mobile devices.
 - The pages maintain a similar structure so clients can focus on the content.
 - The content is structured using headings and paragraphs to allow for easy navigation.
 
-As a client, I want to learn more about the business and its offers.
+As a user, I want to learn more about the business and its offers.
 - The About page contains useful information about the business and its services.
 - The Destinations page contains further information about available offers, broken down by destination.
 - The Bookings page contains a form to request more information.
 
-As a client, I want to be able to request more information directly from the website.
+As a user, I want to be able to request more information directly from the website.
 - The form on the Bookings page can be used to request personalized offers depending on clients' needs.
 
-As a client, I want to connect with the business on social media. 
+As a user, I want to connect with the business on social media. 
 - The footer on each page contains links to Lonely Galaxy's social media channels.
 
 ### Code Validation
@@ -255,8 +254,6 @@ As a client, I want to connect with the business on social media.
 - Responsiveness
     
     - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of all pages across different devices.
-
-    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of all pages on different screen sizes.
     
     - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to test responsiveness in different screen sizes during the development process.
 
@@ -292,7 +289,7 @@ All Pages
 
 - Footer
     - Clicking on the social media icons opens the respective website in a new tab.
-    - Clickig on the location icon brings clients to the Bookings page.
+    - Clicking on the location icon brings clients to the Bookings page.
 
 Home Page
 - Hovering over the quote triggers a hover effect which underlines the text.
@@ -305,10 +302,10 @@ Destinations Page
 
 Bookings Page
 - When filling out the form, clients are required to fill out all forms before submitting.
-- Hovering over the Request Personalized Package button inverts the colors of the button and its text.
+- Hovering over the Submit button inverts the colors of the button and its text.
 
 404 Page
- - Clicking on the homepage link brings the client back to the Home page.
+ - Clicking on the text in the highlighted field brings the client back to the Home page.
 
  [Back to top ⇧](#lonely-galaxy)
 
@@ -356,7 +353,7 @@ The image used for the Favicon was generated by Ronny Hantusch.
 [Back to top ⇧](#lonely-galaxy)
 
 ## Acknowledgements
-- Code Institute and the Slack community for their support and motivation.
+- Code Institute, its tutors, and the Slack community for their support and motivation.
 
 - Marcel, my mentor, for his feedback and encouragement.
 
