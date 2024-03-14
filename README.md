@@ -138,8 +138,8 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 
 **Get in touch**
 
-![Get in Touch Image](assets/readme-files/bookings-map.png)
-- This section displays a Google Map to Lonely Planet's geographical location based on the planet you are accessing the website from.
+![Get in Touch Image](assets/readme-files/bookings-getintouch.png)
+- This section displays Lonely Planet's physical address based on the planet you are accessing the website from.
 
 ### 404 Page
 ![404 Page](assets/readme-files/404-desktop.png)
@@ -201,7 +201,7 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 ## Testing
 ### Testing User Stories
 As a client, I want to easily find the business’ contact information and locations.
-- The footer of each page contains the address as well as a link to the Bookings Page, wihch contains a Google Map centered on Lonely Planet's planetary headquarters.
+- The footer of each page contains the address as well as a link to the Bookings Page, wihch contains the address of Lonely Planet's planetary headquarters.
 
 As a client, I want to navigate the website intuitively on different devices. 
 - The navigation bar is visible on all pages on larger screens, and easily accessible via a dropdown menu on mobile devices.
@@ -243,6 +243,7 @@ As a client, I want to connect with the business on social media.
 
  - Bookings Page
     ![Lighthouse Report Bookings Page Image](assets/readme-files/lighthouse-bookings.png)
+    - The Accessibility score points out that both select elements as well a the date input do not have associated labels, despite labels being used for each form field.
 
 - 404 Page
     ![Lighthouse Report 404 Page Image](assets/readme-files/lighthouse-404.png)

@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Oxanium", sans-serif;
+    color:#383a45;
 }
 
 h2 {
@@ -214,14 +215,14 @@ main {
 }
 
 #calltoaction {
-    font-size: 1.5rem;
-    line-height: 150%;
+    line-height: 1.5;
     text-align: left;
 }
 
 #location {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 120%;
 }
 
 /* Form */
@@ -420,8 +421,9 @@ footer a {
         flex: 1;
         gap: 100px;
         justify-content: space-evenly;
-    }
-    
+        margin-top: 0;
+    }    
+
     .form-box {
         flex-direction: row;
     }
