@@ -101,7 +101,7 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 - The footer is identical across all pages.
 - The footer contains a location icon in the bottom left, and links to the business' social media channels in the bottom right.
 - On larger screens, the business' address appears next to the location icon.
-- The location icon functions as a link to the Bookings page, which includes a map and the business' full address.
+- The location icon functions as a link to the Bookings page, which includes the business' full address.
 
 ### Home Page
 **Main Image**
@@ -122,7 +122,7 @@ Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-des
 ### Destinations Page
 ![Destinations Image](assets/readme-files/destinations-example.png)
 - The Destinations page is the only page without a banner or main image. Instead, it contains cards for each possible destination.
-- The cards are made up of an image of the planetary view at the top, followed by some information about this destination. At the bottom of the card, a link will take clients to the Bookings page.
+- The cards are made up of an image of the planetary view at the top, followed by some information about this destination. At the bottom of the card, a link takes clients to the Bookings page.
 - Each card is fully responsive and easy to edit or replicate in case destinations change or more destinations are added.
 
 ### Bookings Page
@@ -301,13 +301,11 @@ Home Page
 Destinations Page
 - Hovering over the cards triggers a hover effect which has the card slide up a few pixels.
 - Hovering over the Learn More button inverts the colors of the button and its text.
-- Clickin on the Learn More button brings clients to the Bookings page.
+- Clicking on the Learn More button brings clients to the Bookings page.
 
 Bookings Page
 - When filling out the form, clients are required to fill out all forms before submitting.
 - Hovering over the Request Personalized Package button inverts the colors of the button and its text.
-- Clicking and dragging on the map moves the visible area on the map
-- Clicking the plus and minus buttons changes the zoom of the map.
 
 404 Page
  - Clicking on the homepage link brings the client back to the Home page.
