@@ -8,20 +8,19 @@
 /* General Styles */
 body {
     min-height: 100vh;
-    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Oxanium", sans-serif;
-    margin: 0; 
-    padding: 0;
+    /* margin: 0; 
+    padding: 0; */
 }
 
 h2 {
     font-family: "Orbitron", sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 25px;
+    margin: 20px;
 }
 
 /* ---------- HEADER SECTION STYLES ---------- */
@@ -142,11 +141,11 @@ main {
 
 .about {
     margin: 20px; 
-}
+} 
 
-.about-h2 {
+/* .about-h2 {
     margin: 20px;
-}
+} */
 
 /* Destinations Section */
 .card-container {
@@ -218,6 +217,82 @@ main {
     position: relative;
 }
 
+.wrapper {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form */
+select, option, input, label, button{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    color:#383a45;
+}
+
+.form-box{
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label{
+    display: none;
+}
+
+.form-box input,
+.form-box select{
+    flex-basis: 100%;
+    padding: .5em;
+    margin-left: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #b943ae;
+    min-width: 50%;
+}
+
+.form-box button{
+    display: inline-block;
+    background-color: #b943ae;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 8px 16px;
+    display: block;
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.form-box button:hover {
+    color:#b943ae;
+    background-color: #ffffff;
+} 
+
+.form-box input:focus,
+.form-box select:focus {
+    outline: none;
+}
+
+#calltoaction {
+    font-size: 1.5rem;
+    line-height: 150%;
+    text-align: left;
+}
+
+#location {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*Google Maps*/
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/*
 #bookings-h2 {
     margin: 20px;
 }
@@ -226,7 +301,7 @@ main {
     margin-bottom: 5px;
 }
 
-/* Form Styles */
+Form Styles 
 fieldset {
     margin: 2em 0;
     padding: 1em 2em;
@@ -309,7 +384,7 @@ input[type="radio"] {
 .bookings-button:hover {
     color:#b943ae;
     background-color: #ffffff;
-}
+} */
 
 /* 404 Section */
 #error-img {
@@ -415,7 +490,13 @@ footer a {
         margin: 40px; 
     }
 
-    /* Bookings Section */
+/* Bookings Section NEW STYLE */
+.form-box label{
+    display: block;
+}
+
+
+    /* Bookings Section
    iframe {
     width: 100%;
    }
@@ -423,6 +504,7 @@ footer a {
    fieldset {
     height: 90%;
    }
+    */
 
    /* Footer */
    #address {
@@ -463,7 +545,34 @@ footer a {
         align-items: stretch;
     }
 
-    /* Bookings Section */
+/*NEW BOOKINGS SECTION*/
+
+.wrapper {
+    flex-direction: row;
+    flex: 1;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+
+.form-box{
+    flex-direction: row;
+}
+.form-box label{
+    flex-basis: 12rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.form-box input,
+.form-box select{
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.form-box button{
+    margin-left: 12rem;
+}
+
+    /* Bookings Section
     .about2 {
         width: 50%;
     }
@@ -478,5 +587,5 @@ footer a {
 
     .card-button {      
         align-items: baseline;
-    }
+    }  */
 }
