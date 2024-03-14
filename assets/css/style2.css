@@ -554,21 +554,24 @@ footer a {
     justify-content: space-evenly;
 }
 
-.form-box{
+.form-box {
     flex-direction: row;
 }
-.form-box label{
+
+.form-box label {
     flex-basis: 12rem;
     flex-grow: 0;
     flex-shrink: 0;
 }
+
 .form-box input,
-.form-box select{
+.form-box select {
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
 }
-.form-box button{
+
+.form-box button {
     margin-left: 12rem;
 }
 

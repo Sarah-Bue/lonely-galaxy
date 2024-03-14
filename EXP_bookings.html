@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta tags for SEO -->
+        <meta name="description" content="Lonely Galaxy | Your intergalactic travel guide for trips beyond your wildest dreams.">
+        <meta name="keywords" content="galaxy, lonely galaxy, travel, travel guide, exploring, vacation, tourism">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+        <!-- Stylesheet-->
+        <link rel="stylesheet" href="assets/css/style2.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Oxanium:wght@200..800&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <title>Lonely Galaxy</title>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <!-- Logo with link to homepage -->
+            <a href="index.html">
+                <h1 id="logo">Lonely Galaxy</h1>
+            </a>
+
+            <!-- Navigation bar > toggle function  -->
+            <input type="checkbox" name="nav-toggle" id="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-circle-chevron-down"></i>
+            </label>
+
+            <!-- Navigation bar -->
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="bookings.html" class="active">Bookings</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <!-- Bookings Image -->
+            <div id="bookings-img"
+            title="A vibrant sunset over a lake with fog enveloping a lake with mountains in the distance."></div>
+        
+            <h2 class="about-h2">Get in touch!</h2>
+
+            <div class="wrapper">
+            <form method="POST" action="https://formdump.codeinstitute.net">
+                
+                <div class="form-box">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="text-input" name="name" id="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-box">
+                    <label for="email">Your Email</label>
+                    <input type="email" class="text-input" name="email" id="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-box">
+                    <label for="species">Your Species</label>
+                    <select name="species" id="species" class="text-input" required>
+                        <option value="">Please Select</option>
+                        <option value="bothan">Bothan</option>
+                        <option value="duro">Duro</option>
+                        <option value="human">Human</option>
+                        <option value="rodian">Rodian</option>
+                        <option value="sullustan">Sullustan</option>
+                    </select>
+                </div>
+
+                <div class="form-box">
+                    <label for="destination">Your Destination</label>
+                    <select name="destination" id="destination" class="text-input" required>
+                        <option value="">Please Select</option>
+                        <option value="coruscant">Coruscant</option>
+                        <option value="hollastin">Hollastin</option>
+                        <option value="rendili">Rendili</option>
+                    </select>
+                </div>
+
+                <div class="form-box">
+                    <label for="datepicker">Your Date</label>
+                    <input type="date" name="datepicker" id="datepicker" class="text-input" required>
+                </div>
+
+                <div class="form-box">
+                    <button type="submit" class="bookings-button">Request personalized package</button>
+                </div>
+            </form>
+
+            <!-- Call to Action -->
+            <div id="calltoaction">
+                    <p>Don't miss the opportunity to embark on a cosmic adventure that might just change your life. <br>
+                        Simply select when and where you want to experience your own, personalized sense of wonder, and
+                        let us do the work of finding the best offers and packages. <br><br> Contact us using our form, or find us on any of our on-planet offices: <br>
+                    
+                     <div id="location">Lonely Galaxy <br>
+                     Capital of the World <br>
+                     Liberty Island <br>
+                     NY, USA <br>
+                     Earth</div>
+                    </p>
+                
+            </div>
+        </div>
+
+
+
+
+
+
+
+            <!-- 
+            <section class="about">
+                Bookings Form
+                <form method="POST" action="https://formdump.codeinstitute.net">
+                    <fieldset>
+                        <legend>Leave it with us</legend>
+
+                        <div class="input">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="text-input" name="name" id="name" required><br>
+                            
+                            <label for="email">Your Email</label>
+                            <input type="email" class="text-input" name="email" id="email" required><br>
+                        </div>
+
+                        <div class="selection">
+                            <label for="species">Your Species</label>
+                            <select name="species" id="species" class="text-input" required>
+                                <option value="">Please Select</option>
+                                <option value="bothan">Bothan</option>
+                                <option value="duro">Duro</option>
+                                <option value="human">Human</option>
+                                <option value="rodian">Rodian</option>
+                                <option value="sullustan">Sullustan</option>
+                            </select><br>
+                        </div>
+
+                        <div class="selection">
+                            <label for="datepicker">Your Date</label>
+                            <input type="date" name="datepicker" id="datepicker" class="text-input" required><br>
+                        </div>
+
+                        <div class="radio-buttons">
+                            <p id="dest">Your Destination</p>
+                            <input type="radio" name="planetpicker" id="coruscant" value="coruscant">
+                            <label for="coruscant">Coruscant</label><br>
+
+                            <input type="radio" name="planetpicker" id="hollastin" value="hollastin">
+                            <label for="hollastin">Hollastin</label><br>
+
+                            <input type="radio" name="planetpicker" id="rendili" value="rendili">
+                            <label for="rendili">Rendili</label><br>
+                        </div>
+                        
+                        <button type="submit" class="bookings-button">Request personalized package</button>
+                    </fieldset>
+                </form> -->
+
+                <!-- Call to Action 
+                <div class="about2">
+                     <h2>Get in touch!</h2> 
+                    <p id="getintouch">  Don't miss the opportunity to embark on a cosmic adventure that might just change your life. <br>
+                        Simply select when and where you want to experience your own, personalized sense of wonder, and
+                        let us do the work of finding the best offers and packages. <br><br>  
+                        Contact us using our form, or find us on any of our on-planet offices. <br><br>
+                        Lonely Galaxy <br>
+                        Capital of the World <br>
+                        Liberty Island <br>
+                        NY, USA <br>
+                        Earth
+                    </p>
+
+                     Google Maps 
+                    <div><iframe title="Google Maps centered on Liberty Island" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.279884611195!2d-74.05022926629375!3d40.68983314764599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2508ed1e8d553%3A0x79084fab31e7ed6c!2sLiberty%20Island!5e0!3m2!1sen!2sie!4v1709594298537!5m2!1sen!2sie"
+                            width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div id="address">
+                <a href="bookings.html"><i class="fa-solid fa-location-dot"></i></a>
+                <div id="address-hide">
+                Lonely Galaxy |
+                Capital of the World | 
+                Liberty Island, NY, USA | 
+                Earth
+                </div>
+            </div>
+            
+            <ul id="social-networks">
+                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit us on Facebook (opens in a new tab)">
+                    <i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit us on instagram (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit us on Twitter  (opens in a new tab)">
+                    <i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </footer>
+
+        <!-- Font Awesome Kit-->
+        <script src="https://kit.fontawesome.com/a77617d661.js" crossorigin="anonymous"></script>
+    </body>
+</html>

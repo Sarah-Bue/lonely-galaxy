@@ -13,15 +13,15 @@ body {
     flex-direction: column;
     background-color: #b7adb2;
     font-family: "Oxanium", sans-serif;
-    margin: 0; 
-    padding: 0;
+/*     margin: 0; 
+    padding: 0; */
 }
 
 h2 {
     font-family: "Orbitron", sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 25px;
+    margin: 20px;
 }
 
 /* ---------- HEADER SECTION STYLES ---------- */
@@ -103,7 +103,7 @@ main {
     margin-top: 40px; /* main element takes up surplus space to push footer to the bottom */
 }
 
-/* Home Section */ 
+/* Home Page */ 
 #home-img {
     background: url(../images/galaxy.jpeg) no-repeat center center / cover;
     object-fit: cover;
@@ -132,7 +132,7 @@ main {
     text-decoration: underline;
 }
 
-/* About Section */
+/* About Page */
 #about-img {
     height: 250px;
     width: 100%;
@@ -144,11 +144,11 @@ main {
     margin: 20px; 
 }
 
-.about-h2 {
+/* .about-h2 {
     margin: 20px;
-}
+} */
 
-/* Destinations Section */
+/* Destinations Page */
 .card-container {
     display: flex;
     flex-direction: column;
@@ -210,7 +210,7 @@ main {
     background-color: #ffffff;
 }
 
-/* Bookings Section */
+/* Bookings Page */
 #bookings-img {
     height: 250px;
     width: 100%;
@@ -218,39 +218,43 @@ main {
     position: relative;
 }
 
-#bookings-h2 {
+.wrapper {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-#getintouch {
-    margin-bottom: 5px;
+#calltoaction {
+    font-size: 1.5rem;
+    line-height: 150%;
+    text-align: left;
 }
 
-/* Form Styles */
-fieldset {
-    margin: 2em 0;
-    padding: 1em 2em;
-    border: solid 1px #383a45;
-    border-radius: 6px;
-    min-width: 200px;
+#location {
+    text-align: center;
+    padding-top: 10px;
 }
 
-legend {
-    font-size: 110%;
-    font-family: "Oxanium", sans-serif;
+/* Form */
+select, option, input, label, button{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
     color:#383a45;
 }
 
-label {
-    display: inline-block;
-    margin-top: 1em;
+.form-box{
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
-label:first-of-type {
-    margin-top: 0;
+.form-box label{
+    display: none;
 }
 
-.text-input {
+.form-box input,
+.form-box select{
+    flex-basis: 100%;
     padding: .5em;
     margin-left: 15px;
     background: transparent;
@@ -259,42 +263,7 @@ label:first-of-type {
     min-width: 50%;
 }
 
-.text-input:focus {
-    outline: none; 
-    border-radius: 6px;
-}
-
-input [type="email"], input [type="text"] {
-    width: 100%;
-}
-
-.radio-buttons {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    display: block;
-}
-
-.radio-buttons label{
-    margin-top: 0;
-}
-
-#dest {
-    margin-bottom: 5px;
-} 
-
-input[type="radio"] {
-    margin-left: 1.5em;
-    margin-right: 0;
-    margin-top: 0;
-}
-
-.selection {
-    display: block;
-    margin-top: 1em;
-    width: 100%;
-}
-
-.bookings-button { 
+.form-box button{
     display: inline-block;
     background-color: #b943ae;
     text-decoration: none;
@@ -306,12 +275,17 @@ input[type="radio"] {
     margin: 20px 40px;
 }
 
-.bookings-button:hover {
+.form-box button:hover {
     color:#b943ae;
     background-color: #ffffff;
+} 
+
+.form-box input:focus,
+.form-box select:focus {
+    outline: none;
 }
 
-/* 404 Section */
+/* 404 Page */
 #error-img {
     background: url(../images/coruscant-onplanet.jpeg) no-repeat center center / cover;
     object-fit: cover;
@@ -370,7 +344,7 @@ footer a {
     display: none;
 }
 
-/* ---------- Media Queries ---------- */
+/* ---------- MEDIA QUERIES ---------- */
 
 /* Media Query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
@@ -406,7 +380,7 @@ footer a {
         margin-top: 75px; /* move main content down to accomodate larger header */
     }
 
-    /* About Section */
+    /* About Page */
     .about-h2 {
         font-size: 150%;
     }
@@ -415,14 +389,10 @@ footer a {
         margin: 40px; 
     }
 
-    /* Bookings Section */
-   iframe {
-    width: 100%;
-   }
-
-   fieldset {
-    height: 90%;
-   }
+    /* Bookings Page */
+    .form-box label{
+        display: block;
+    }
 
    /* Footer */
    #address {
@@ -442,7 +412,7 @@ footer a {
         color:#b943ae;
     }
 
-    /* About Section */
+    /* About Page */
     .about {
         display: flex;
         flex-direction: row;
@@ -454,7 +424,7 @@ footer a {
         font-size: 200%;
     }
 
-    /* Destinations Section */
+    /* Destinations Page */
     .card-container {
         display: flex;
         flex-direction: row;
@@ -463,20 +433,32 @@ footer a {
         align-items: stretch;
     }
 
-    /* Bookings Section */
-    .about2 {
-        width: 50%;
+    /* Bookings Page */
+    .wrapper {
+        flex-direction: row;
+        flex: 1;
+        gap: 100px;
+        justify-content: space-evenly;
     }
-
-    form {
-        width: 75%;
-    } 
-
-    fieldset {
-        width: 100%;
+    
+    .form-box {
+        flex-direction: row;
     }
-
-    .card-button {      
-        align-items: baseline;
+    
+    .form-box label {
+        flex-basis: 12rem;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    
+    .form-box input,
+    .form-box select {
+        flex-basis: 0;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    
+    .form-box button {
+        margin-left: 12rem;
     }
 }
