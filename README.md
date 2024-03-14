@@ -243,8 +243,6 @@ As a client, I want to connect with the business on social media.
 
  - Bookings Page
     ![Lighthouse Report Bookings Page Image](assets/readme-files/lighthouse-bookings.png)
-    - The Accessibility score points out that the form input fields do not have an associated label, which can lead to issues with screenreaders and other assistive technology.
-    - The labels are present in the code, but are set to not display on mobile devices.
 
 - 404 Page
     ![Lighthouse Report 404 Page Image](assets/readme-files/lighthouse-404.png)
