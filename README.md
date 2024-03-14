@@ -74,11 +74,11 @@ The fallback font for each font, in case any aren’t loaded correctly, is Sans 
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
-Home | ![Wireframe Home Desktop Image](assets/wireframes/WF-home-desktop.png) | ![Wireframe Home Mobile Image](assets/wireframes/WF-home-mobile.png)
-About | ![Wireframe About Desktop Image](assets/wireframes/WF-about-desktop.png) | ![Wireframe About Mobile Image](assets/wireframes/WF-about-mobile.png)
-Destinations | ![Wireframe Destinations Desktop Image](assets/wireframes/WF-destinations-desktop.png) | ![Wireframe Destinations Mobile Image](assets/wireframes/WF-destinations-mobile.png)
-Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/WF-bookings-desktop.png) | ![Wireframe Bookings Mobile Image](assets/wireframes/WF-bookings-mobile.png)
-404 | ![Wireframe 404 Desktop Image](assets/wireframes/WF-404-desktop.png) | ![Wireframe 404 Mobile Image](assets/wireframes/WF-404-mobile.png)
+Home | ![Wireframe Home Desktop Image](assets/wireframes/wf-home-desktop.png) | ![Wireframe Home Mobile Image](assets/wireframes/wf-home-mobile.png)
+About | ![Wireframe About Desktop Image](assets/wireframes/wf-about-desktop.png) | ![Wireframe About Mobile Image](assets/wireframes/wf-about-mobile.png)
+Destinations | ![Wireframe Destinations Desktop Image](assets/wireframes/wf-destinations-desktop.png) | ![Wireframe Destinations Mobile Image](assets/wireframes/wf-destinations-mobile.png)
+Bookings | ![Wireframe Bookings Desktop Image](assets/wireframes/wf-bookings-desktop.png) | ![Wireframe Bookings Mobile Image](assets/wireframes/wf-bookings-mobile.png)
+404 | ![Wireframe 404 Desktop Image](assets/wireframes/wf-404-desktop.png) | ![Wireframe 404 Mobile Image](assets/wireframes/wf-404-mobile.png)
 
 [Back to top ⇧](#lonely-galaxy)
 
@@ -333,7 +333,6 @@ Here are the steps to deploy a website to GitHub Pages from its GitHub repositor
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
 
 2. At the top of the Repository, locate the Settings button on the menu.
-    - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
 
 3. Scroll down the Settings page until you locate the Pages section.
 
